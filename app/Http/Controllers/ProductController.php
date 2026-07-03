@@ -97,36 +97,8 @@ class ProductController extends Controller
         ]);
     }
         public function homeOne(){
-        $bests = Product::where('product_category','bestSelling')->get()->random('10');
-        $homes = Product::where('product_category','bestSelling')->get()->random('3');
-        $computers = Product::where('product_category','bestSelling')->get()->random('10');
-        $offices = Product::where('product_category','bestSelling')->get()->random('3');
-        $toners = Product::where('product_category','bestSelling')->get()->random('3');
-        $projectors = Product::where('product_category','computer')->get();
-        $printers = Product::where('product_category','printer')->get();
-        $cctvs = Product::where('product_category','cctv')->get();
-        $hardDisks = Product::where('product_category','hardDisk')->get();
-        $categories = Category::all();
-        $sliders = Advert::where('category',1)->get();
-        $oldCart = Session::get('cat');
-        $cart = new Cat($oldCart);
-        return view('customer.indexOne',[
-            'bests'=>$bests,
-            'homes'=>$homes,
-            'computers'=>$computers,
-            'offices'=>$offices,
-            'toners'=>$toners,
-            'projectors'=>$projectors,
-            'cctvs'=>$cctvs,
-            'hardDisks'=>$hardDisks,
-            'printers'=>$printers,
-            'products'=>$cart->item,
-            'totalPrice'=>$cart->totalPrice,
-            'sliders'=>$sliders,
-            'categories' => $categories
-
-
-        ]);
+   
+        return view('customer.indexOne');
     }
     public function status($id){
         $status = Product::find($id);
