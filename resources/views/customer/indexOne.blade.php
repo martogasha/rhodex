@@ -522,7 +522,7 @@
                            <img src="assets/images/thumbs/advance-thumb1.jpg" alt="thumb">
                         </div>
                         <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Masaai Mara</a></h6>
+                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Maasai Mara</a></h6>
                            <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
                         </div>
                      </div>
