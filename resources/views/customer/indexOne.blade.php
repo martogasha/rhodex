@@ -398,9 +398,7 @@
                     </div>
                 </div>
 
-                <div class="header-button">
-                    <a class="tw-btn-hover-yellow bg-white tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="contact.html">EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                </div>
+               ]
                 <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
                     <i class="ph ph-list"></i>
                 </button>
@@ -418,15 +416,13 @@
             <div class="col-xl-8 col-lg-8">
                 <div class="position-relative z-2">
                     <h6 class="banner-subtitle tw-text-xl text-uppercase text-white tw-mb-9">Find unique homes in vibrant places.</h6>
-                    <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">Safari Tours and Travel</h1>
+                    <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">+254790265966</h1>
                     <div class="d-flex align-items-center flex-wrap row-gap-3 tw-gap-13">
                         <div>
                             <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg" href="{{url('contact')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                         </div>
                         <div class="">
-                                 <div>
-                                <p class="tw-text-xl text-white">0720 602 677</p>
-                            </div>
+                           
                             <div class="d-flex align-items-center tw-gap-2">
                                 <span class="tw-text-xl text-white font-heading">Starrhodextoursandtravelsltd@gmail.com</span>
                     

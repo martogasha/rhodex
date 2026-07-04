@@ -4514,7 +4514,8 @@ input:focus, input:focus-visible {
 /* Max Height Css Class End */
 /* Max width Css Class Start */
 .max-w-200-px {
-    max-width: 200px;
+    width: 500px;
+    height: 100px;
 }
 
 .max-w-630-px {
