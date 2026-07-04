@@ -535,8 +535,8 @@
                                             </div>
                                             <div>
                                                 <h4 class="tw-text-2xl fw-normal tw-mb-3">Email</h4>
-                                                <a class="fw-medium text-body d-block hover-text-main-600" href="mailto:wiatechinfo@gmail.com">rhodexrecruiters254@gmail.com</a>
-                                                <a class="fw-medium text-body d-block hover-text-main-600" href="mailto:www.wiatech.com">www.rhodexrecruiters.co.ke</a>
+                                                <a class="fw-medium text-body d-block hover-text-main-600" href="Starrhodextoursandtravelsltd@gmail.com">Starrhodextoursandtravelsltd@gmail.com</a>
+                                                
                                             </div>
                                         </div>
                                     </div>

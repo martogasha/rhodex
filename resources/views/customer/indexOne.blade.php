@@ -418,25 +418,20 @@
             <div class="col-xl-8 col-lg-8">
                 <div class="position-relative z-2">
                     <h6 class="banner-subtitle tw-text-xl text-uppercase text-white tw-mb-9">Find unique homes in vibrant places.</h6>
-                    <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">Trusted Hotels, Seamless Booking</h1>
+                    <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">Safari Tours and Travel</h1>
                     <div class="d-flex align-items-center flex-wrap row-gap-3 tw-gap-13">
                         <div>
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg" href="contact.html">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                            <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg" href="{{url('contact')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                         </div>
                         <div class="">
+                                 <div>
+                                <p class="tw-text-xl text-white">0720 602 677</p>
+                            </div>
                             <div class="d-flex align-items-center tw-gap-2">
-                                <span class="tw-text-xl text-white font-heading">5.0</span>
-                                <ul class="d-flex tw-gap-1">
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                </ul>
+                                <span class="tw-text-xl text-white font-heading">Starrhodextoursandtravelsltd@gmail.com</span>
+                    
                             </div>
-                            <div>
-                                <p class="tw-text-xl text-white font-heading">From 2,000+ reviews</p>
-                            </div>
+                       
                         </div>
                     </div>
                 </div>
