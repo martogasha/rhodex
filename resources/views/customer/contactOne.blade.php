@@ -40,6 +40,21 @@
                 </div>
             </div>
             <div class="txt-loading tw-mt-10">
+
+              <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="t" class="letters-loading">
+                    t
+                </span>
+                <span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+
+
                  <span data-text-preloader="R" class="letters-loading">
                     R
                 </span>
