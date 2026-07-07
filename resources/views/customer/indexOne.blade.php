@@ -560,7 +560,7 @@
                            <img src="assets/images/thumbs/advance-thumb4.jpg" alt="thumb">
                         </div>
                         <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Diani Beach</a></h6>
+                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Maldives</a></h6>
                            <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
                         </div>
                      </div>
@@ -719,17 +719,13 @@
                     <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1 tw_fade_anim" data-delay=".3">
                         <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb1.jpg" alt="thumb"></a>
                         <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                            <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                            <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                            <span class="tw-text-8 font-heading fw-normal text-heading">$610</span>
+                            <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">5 Days</p>
                         </div>
                         <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                            <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Premier Oceanview Villa <br> Fxcv</a></h4>
+                            <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">5 Days / 4 Nights Cape Town Adventures</a></h4>
                             <div class="package-list">
-                                <ul class="d-flex">
-                                    <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
-                                    <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds</li>
-                                    <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
-                                </ul>
+                               
                             </div>
                         </div>
                     </div>
@@ -738,34 +734,26 @@
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb2.jpg" alt="thumb"></a>
                                 <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                    <span class="tw-text-8 font-heading fw-normal text-heading">$1,850</span>
+                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">7 Days</p>
                                 </div>
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Luxury Seaside Villa</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">7 Days Masai Mara, Nakuru, Naivasha & Amboseli Safari (Hell’s Gate)</a></h4>
                                     <div class="package-list">
-                                        <ul class="d-flex">
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
-                                        </ul>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb3.jpg" alt="thumb"></a>
                                 <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                    <span class="tw-text-8 font-heading fw-normal text-heading">$1,600</span>
+                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">5-7 Days</p>
                                 </div>
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Elite Oceanfront Retreat</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Mt. Kilimanjaro Trek – 6 Days Machame Route</a></h4>
                                     <div class="package-list">
-                                        <ul class="d-flex">
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
-                                        </ul>
+                                     
                                     </div>
                                 </div>
                             </div>
@@ -774,34 +762,26 @@
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb4.jpg" alt="thumb"></a>
                                 <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                    <span class="tw-text-8 font-heading fw-normal text-heading">$900</span>
+                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">3-5 Days</p>
                                 </div>
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Signature Coastal Villa</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Mt. Kenya Trek – 5 Days Sirimon Route</a></h4>
                                     <div class="package-list">
-                                        <ul class="d-flex">
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
-                                        </ul>
+                                     
                                     </div>
                                 </div>
                             </div>
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb5.jpg" alt="thumb"></a>
                                 <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
+                                    <span class="tw-text-8 font-heading fw-normal text-heading">$1,000</span>
+                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">5-7 Days</p>
                                 </div>
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Exclusive Oceanview Escape</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Tsavo East & West – 5 Days Private Tour</a></h4>
                                     <div class="package-list">
-                                        <ul class="d-flex">
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize">4 guest</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 2 beds</li>
-                                            <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
-                                        </ul>
+                                    
                                     </div>
                                 </div>
                             </div>
