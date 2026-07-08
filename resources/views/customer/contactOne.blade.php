@@ -390,7 +390,7 @@
                     </div>
                     <div>
                         <h6 class="text-white fw-normal tw-text-sm font-body tw-mb-2">Need any Help! call Us today</h6>
-                        <a class="text-white font-heading hover-text-main-600" href="tell:+2871382023">0720 602 677</a>
+                        <a class="text-white font-heading hover-text-main-600" href="tell:+2871382023">+254790265966</a>
                     </div>
                 </div>
 
@@ -523,8 +523,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="tw-text-2xl fw-normal tw-mb-3">Phone</h4>
-                                                <a class="fw-medium text-body d-block hover-text-main-600" href="talk:13685678954">0720 602 677</a>
-                                                <a class="fw-medium text-body d-block hover-text-main-600" href="talk:23645689622">0720 602 677</a>
+                                                <a class="fw-medium text-body d-block hover-text-main-600" href="talk:13685678954">+254790265966</a>
                                             </div>
                                         </div>
                                     </div>
