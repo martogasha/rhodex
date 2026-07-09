@@ -423,73 +423,7 @@
     </div>
 </section>
 <!-- ==================== Breadcrumb End Here ==================== -->
- 
-    <div class="pb-120">
-        <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
-     <div class="container">
-          <div class="checkout-bg bg-white tw-pt-11 tw-px-14 tw-pb-11 tw-rounded-md">
-               <div class="row">
-                    <div class="col-xl-12">
-                         <div class="checkout-main-wrapper">
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check In</span>
-                                       <ul class="list">
-                                           <li class="option">Check In</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check Out</span>
-                                       <ul class="list">
-                                           <li class="option">Check Out</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon3.svg" alt="icon"></span> Select room</label>
-                                   <div class="nice-select"><span class="current">Rooms</span>
-                                       <ul class="list">
-                                           <li class="option">Rooms</li>
-                                           <li class="option">01</li>
-                                           <li class="option">02</li>
-                                           <li class="option">03</li>
-                                           <li class="option">04</li>
-                                           <li class="option">05</li>
-                                           <li class="option">06</li>
-                                           <li class="option">07</li>
-                                           <li class="option">08</li>
-                                           <li class="option">09</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon4.svg" alt="icon"></span> 1 room, 1 adult, 0 child</label>
-                                   <div class="nice-select"><span class="current">guests</span>
-                                       <ul class="list">
-                                           <li class="option">guests</li>
-                                           <li class="option">1</li>
-                                           <li class="option">2</li>
-                                           <li class="option">3</li>
-                                           <li class="option">4</li>
-                                           <li class="option">5</li>
-                                           <li class="option">6</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper">
-                                   <div class="checkout-button common-hover-yellow">
-                                        <button class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></button>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </div>
-</div>
-    </div>
+<br>
 
 
     <section>
@@ -612,24 +546,6 @@
 
 
 
-    <section class="background-img position-relative z-1 tw-pt-25 tw-pb-23" data-background-image="assets/images/thumbs/cta-three-bg2.jpg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-12">
-                    <div class="cta-three-wrapper tw-pt-27 tw-pb-22 tw-px-20 tw_fade_anim">
-                        <div class="section-two-wrapper text-center tw-mb-8">
-                            <h6 class="section-two-subtitle tw-text-xl text-uppercase text-main-three-600 tw-mb-4">Find unique homes in vibrant places.</h6>
-                            <h2 class="section-two-title tw-text-25 text-white fw-normal tw-char-animation">Book Your Beachside 
-                                Escape Today</h2>
-                        </div>
-                        <div class="tw-mt-6 text-center">
-                                                    <a class="tw-btn-hover-yellow bg-main-three-600 tw-py-6 tw-px-16 text-capitalize text-white font-heading d-inline-flex fw-bold align-items-center tw-gap-2" href="contact.html">make reservation <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
     <div class="container">
@@ -760,7 +676,7 @@
                         <a href="https://www.pinterest.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-youtube-logo"></i></a>
                       </li>
                   </ul>
-                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">wowtheme7.</a>- Powered by Themeforest</p>
+                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">Dolex.</a>- Powered by Dolex</p>
                 </div>
             </div>
         </div>

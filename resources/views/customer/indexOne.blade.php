@@ -438,70 +438,7 @@
         </div>
     </div>
 </section>
-    <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
-     <div class="container">
-          <div class="checkout-bg bg-white tw-pt-11 tw-px-14 tw-pb-11 tw-rounded-md">
-               <div class="row">
-                    <div class="col-xl-12">
-                         <div class="checkout-main-wrapper">
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check In</span>
-                                       <ul class="list">
-                                           <li class="option">Check In</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check Out</span>
-                                       <ul class="list">
-                                           <li class="option">Check Out</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon3.svg" alt="icon"></span> Select room</label>
-                                   <div class="nice-select"><span class="current">Rooms</span>
-                                       <ul class="list">
-                                           <li class="option">Rooms</li>
-                                           <li class="option">01</li>
-                                           <li class="option">02</li>
-                                           <li class="option">03</li>
-                                           <li class="option">04</li>
-                                           <li class="option">05</li>
-                                           <li class="option">06</li>
-                                           <li class="option">07</li>
-                                           <li class="option">08</li>
-                                           <li class="option">09</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon4.svg" alt="icon"></span> 1 room, 1 adult, 0 child</label>
-                                   <div class="nice-select"><span class="current">guests</span>
-                                       <ul class="list">
-                                           <li class="option">guests</li>
-                                           <li class="option">1</li>
-                                           <li class="option">2</li>
-                                           <li class="option">3</li>
-                                           <li class="option">4</li>
-                                           <li class="option">5</li>
-                                           <li class="option">6</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper">
-                                   <div class="checkout-button common-hover-yellow">
-                                        <button class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></button>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </div>
-</div>
+
     <div class="advance-area py-120 position-relative z-1">
     <div class="container">
             <div class="row justify-content-center">
@@ -647,7 +584,7 @@
                         <a href="{{url('contact')}}"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb1.jpg" alt="thumb"></a>
                      
                         <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                            <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Nairobi National Park</a></h4>
+                            <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Sarova Panafric, Nairobi</a></h4>
                             <div class="package-list">
                                
                             </div>
@@ -659,7 +596,7 @@
                                 <a href="{{url('contact')}}"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb2.jpg" alt="thumb"></a>
                             
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Masai Mara, Nakuru, Naivasha & Amboseli Safari (Hell’s Gate)</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Bamburi Beach Hotel, Kisumu</a></h4>
                                     <div class="package-list">
                                        
                                     </div>
@@ -669,7 +606,7 @@
                                 <a href="{{url('contact')}}"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb3.jpg" alt="thumb"></a>
                             
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Mt. Kilimanjaro Trek – 6 Days Machame Route</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Lake Nakuru Sopa Lodge, Nakuru</a></h4>
                                     <div class="package-list">
                                      
                                     </div>
@@ -681,7 +618,7 @@
                                 <a href="{{url('contact')}}"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb4.jpg" alt="thumb"></a>
                              
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Mt. Kenya Trek – 5 Days Sirimon Route</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Hemingways Ol Seki Mara, Maasai Mara</a></h4>
                                     <div class="package-list">
                                      
                                     </div>
@@ -691,7 +628,7 @@
                                 <a href="{{url('contact')}}"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb5.jpg" alt="thumb"></a>
                          
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
-                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Tsavo East & West – 5 Days Private Tour</a></h4>
+                                    <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="{{url('contact')}}">Ol Pejeta Bush Camp, Asilia Africa, Nanyuki</a></h4>
                                     <div class="package-list">
                                     
                                     </div>
@@ -711,221 +648,7 @@
         </div>
     </div>
 </section>
-    <section class="pb-120">
-    <div class="container">
-        <div class="border-bottom border-neutral-200 tw-mb-11">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-8 col-lg-8">
-                    <div class="section-wrapper tw-mb-14 tw_fade_anim" data-delay=".3">
-                         <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Driven by Service, Inspired by You</h6>
-                         <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">We Don’t Just Manage Rooms – We Tell Jokes, Drink Coffee, And Dance When No One’s Watching!</h2>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3">
-                    <div class="counter-right bg-main-600 rounded-circle lh-1 d-inline-flex align-items-center justify-content-center flex-column tw_fade_anim" data-delay=".5">
-                        <h6 class="tw-text-7 fw-normal tw-mb-2">Sophie Graham</h6>
-                        <p>Chief Sustainability Officer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-          <div class="row">
-               <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-wrap tw-mb-8 tw_fade_anim" data-delay=".3">
-                      <div class="counter-content">
-                          <span class="tw-text-xl fw-medium text-heading font-heading tw-mb-10">Clients</span>
-                          <h2 class="counter-title fw-semibold font-heading text-main-600 tw-text-23 fw-normal tw-mb-6"><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="1"></span>.5k</h2>
-                          <p class="counter-paragraph tw-text-lg fw-medium">satisfied Client’s have trusted us <br> with their cyber security need</p>
-                      </div>
-                    </div>
-               </div>
-               <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-wrap tw-mb-8 tw_fade_anim" data-delay=".5">
-                        <div class="counter-content">
-                              <span class="tw-text-xl fw-medium text-heading font-heading tw-mb-10">Team Member</span>
-                            <h2 class="counter-title fw-semibold font-heading text-main-600 tw-text-23 fw-normal tw-mb-6"><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="150"></span>+</h2>
-                            <p class="counter-paragraph tw-text-lg fw-medium">satisfied Client’s have trusted us <br> with their cyber security need</p>
-                        </div>
-                    </div>
-               </div>
-               <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-wrap tw-mb-8 tw_fade_anim" data-delay=".7">
-                        <div class="counter-content">
-                              <span class="tw-text-xl fw-medium text-heading font-heading tw-mb-10">Success</span>
-                            <h2 class="counter-title fw-semibold font-heading text-main-600 tw-text-23 fw-normal tw-mb-6"><span class="purecounter" data-purecounter-duration="1" data-purecounter-end="96"></span>%</h2>
-                            <p class="counter-paragraph tw-text-lg fw-medium">satisfied Client’s have trusted us <br> with their cyber security need</p>
-                        </div>
-                    </div>
-               </div>
-          </div>
-    </div>
-</section>
-
-
-
-
-
-    <section class="about-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-5 col-lg-8">
-                <div class="about-thumb position-relative z-1 tw_fade_anim" data-delay=".3">
-                    <div>
-                        <img src="assets/images/thumbs/about-thumb1.jpg" alt="thumb">
-                    </div>
-                    <div class="about-thumb-2 position-absolute ">
-                        <img src="assets/images/thumbs/about-thumb2.jpg" alt="thumb">
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-7">
-                <div class="about-wrapper tw-ps-14 tw_fade_anim" data-delay=".5">
-                    <div class="section-wrapper tw-mb-14">
-                         <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Sleep in Style and Serenity</h6>
-                         <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Luxury, Location & Love Reasons To Stay With Us</h2>
-                         <p class="tw-text-lg">Welcome to Marcus Medical, your pathway to natural-looking results from <br> industry-leading injectors and plastic surgeons in South Bay.</p>
-                    </div>
-                    <div>
-                        <div class="row">
-                            <div class="col-xl-5 col-lg-6 col-md-6">
-                                <div class="about-list">
-                                    <ul class="d-flex flex-column">
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Unparalleled</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Personalized Service</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Gourmet Dining</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Wellness & Spa</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Advanced Technology</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-5 col-lg-6 col-md-6">
-                                <div class="about-list">
-                                    <ul class="d-flex flex-column">
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Elegant Accommodations</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Advanced Technology</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Sustainable Practices</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Exclusive Packages</li>
-                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Safety & Cleanliness</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
  
-
-    <div class="overflow-hidden tw-pb-10">
-   <div class="marquee">
-      <div class="d-inline-flex align-items-center tw-gap-14">
-         <div class="marquee-icon">
-            <span><img src="assets/images/icons/marquee-icon1.svg" alt="marquee"></span>
-         </div>
-         <div>
-            <h2 class="marquee-title fw-normal">Luxary hotel & resport</h2>
-         </div>
-      </div>
-      <div class="d-inline-flex align-items-center tw-gap-14">
-         <div class="marquee-icon">
-            <span><img src="assets/images/icons/marquee-icon1.svg" alt="marquee"></span>
-         </div>
-         <div>
-            <h2 class="marquee-title fw-normal">Luxary hotel & resport</h2>
-         </div>
-      </div>
-   </div>
-</div>
-    <section class="blog-area bg-neutral-300 py-120">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-             <div class="col-xl-8 col-lg-8"> 
-                  <div class="section-wrapper tw-mb-14 tw_fade_anim" data-delay=".3">
-                       <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">our Guide to Luxury Travel</h6>
-                       <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">From Our Journal: Travel Tips, Stories & More</h2>
-                  </div>
-             </div>
-             <div class="col-xl-4 col-lg-4">
-                  <div class="service-top-button tw_fade_anim" data-delay=".5">
-                       <a class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-12 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="blog-details.html">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                  </div>
-             </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-9">
-                <div class="border border-main-600 tw-p-10 tw-rounded-2xl tw-mb-7 tw_fade_anim" data-delay=".3">
-                    <div class="blog-meta d-inline-flex align-items-center tw-gap-4 tw-mb-6">
-                        <span class="bg-main-600 fw-medium text-uppercase tw-rounded-3xl tw-py-1 tw-px-6 text-heading">02 Apr 2021</span>
-                        <span class="text-heading">Comments (03)</span>
-                    </div>
-                    <div>
-                        <h4 class="blog-title tw-text-9 fw-normal text-capitalize tw-mb-5"><a href="blog-details.html">eal stories from the road where every journey leaves a mark</a></h4>
-                        <div class="tw-mb-10">
-                            <a class="blog-btn d-inline-flex align-items-center tw-gap-2 text-heading hover-text-main-600" href="blog-details.html">Read More <span class="blog-btn-arrow tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center rounded-circle tw-text-sm"><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="tw-rounded-2xl overflow-hidden">
-                        <a class="d-block" href="blog-details.html"><img class="w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500 tw-rounded-2xl" src="assets/images/thumbs/blog-thumb1.jpg" alt="thumb"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-9">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="blog-wrapper-sm border border-main-600 tw-p-8 tw-rounded-2xl tw-mb-7 d-flex align-items-center tw-gap-10 tw_fade_anim" data-delay=".5">
-                            <div class="blog-thumb overflow-hidden tw-rounded-2xl">
-                                <a class="d-block" href="blog-details.html"><img class="w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500 tw-rounded-2xl" src="assets/images/thumbs/blog-thumb2.jpg" alt="thumb"></a>
-                            </div>
-                            <div>
-                                <div class="blog-meta d-inline-flex align-items-center tw-gap-4 tw-mb-6">
-                                    <span class="bg-main-600 fw-medium text-uppercase tw-rounded-3xl tw-py-1 tw-px-6 text-heading">02 Apr 2021</span>
-                                    <span class="text-heading">Comments (03)</span>
-                                </div>
-                                <div>
-                                    <h4 class="blog-title-sm tw-text-7 fw-normal text-capitalize tw-mb-5"><a href="blog-details.html">eal stories from the road where every journey...</a></h4>
-                                    <div class="">
-                                        <a class="blog-btn d-inline-flex align-items-center tw-gap-2 text-heading hover-text-main-600" href="blog-details.html">Read More <span class="blog-btn-arrow tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center rounded-circle tw-text-sm"><i class="ph ph-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-12">
-                        <div class="blog-wrapper-sm border border-main-600 tw-p-8 tw-rounded-2xl tw-mb-7 d-flex align-items-center tw-gap-10 tw_fade_anim" data-delay=".7">
-                            <div class="blog-thumb overflow-hidden tw-rounded-2xl">
-                                <a class="d-block" href="blog-details.html"><img class="w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500 tw-rounded-2xl" src="assets/images/thumbs/blog-thumb3.jpg" alt="thumb"></a>
-                            </div>
-                            <div>
-                                <div class="blog-meta d-inline-flex align-items-center tw-gap-4 tw-mb-6">
-                                    <span class="bg-main-600 fw-medium text-uppercase tw-rounded-3xl tw-py-1 tw-px-6 text-heading">02 Apr 2021</span>
-                                    <span class="text-heading">Comments (03)</span>
-                                </div>
-                                <div>
-                                    <h4 class="blog-title-sm tw-text-7 fw-normal text-capitalize tw-mb-5"><a href="blog-details.html">eal stories from the road where every journey...</a></h4>
-                                    <div class="">
-                                        <a class="blog-btn d-inline-flex align-items-center tw-gap-2 text-heading hover-text-main-600" href="blog-details.html">Read More <span class="blog-btn-arrow tw-w-8 tw-h-8 lh-1 d-inline-flex justify-content-center align-items-center rounded-circle tw-text-sm"><i class="ph ph-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-    
-
-
-
-
-
-
 
     <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
@@ -1057,7 +780,7 @@
                         <a href="https://www.pinterest.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-youtube-logo"></i></a>
                       </li>
                   </ul>
-                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">wowtheme7.</a>- Powered by Themeforest</p>
+                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">Dolex.</a>- Powered by Dolex</p>
                 </div>
             </div>
         </div>
