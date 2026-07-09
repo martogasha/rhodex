@@ -519,7 +519,6 @@
            <div class="col-xl-11"> 
                 <div class="section-wrapper tw-mb-14 tw_fade_anim">
                      <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Committed to Excellence</h6>
-                     <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Get Our Special Offer</h2>
                 </div>
            </div>
         </div>
