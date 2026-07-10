@@ -1,880 +1,548 @@
 <!DOCTYPE html>
-<html lang="zxx">
-	
-<!-- Mirrored from themezhub.net/kumo-new-update/kumo/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Jun 2025 09:24:08 GMT -->
+<html lang="en">
+  
+<!-- Mirrored from wowtheme7.com/tf/elitestay/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:14:35 GMT -->
 <head>
-		<meta charset="utf-8" />
-		<meta name="author" content="Themezhub" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="description" content="EliteStay HTML Template" >
+    <meta name="keywords" content="EliteStay HTML Template" >
+    <meta name="robots" content="INDEX,FOLLOW" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!-- Title -->
+    <title>Star Rhodex Tours and Travel - Services</title>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- Swiper Bundle -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css" >
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" >
+    <!-- Magnific-Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" >
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css" >
+  </head>
+  <body class="bg-neutral-400 @@bodyClass">
+
+
+
+    <!--==================== Preloader Start ====================-->
+    <div class="loading-screen" id="loading-screen">
+        <span class="bar top-bar"></span>
+        <span class="bar down-bar"></span>
+        <div class="animation-preloader">
+            <div class="position-relative z-1">
+                <div class="loader-border"></div>
+                <div class="loader-logo position-absolute top-50 start-50 translate-middle tw-z-999">
+                    <img class="position-relative tw-z-999" src="assets/images/logo/favicon.png" alt="brand">
+                </div>
+            </div>
+               <div class="txt-loading tw-mt-10">
+                   <span data-text-preloader="S" class="letters-loading">
+                    S
+                </span>
+                <span data-text-preloader="t" class="letters-loading">
+                    t
+                </span>
+                <span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+        
+
+                <span data-text-preloader="R" class="letters-loading">
+                    R
+                </span>
+                <span data-text-preloader="h" class="letters-loading">
+                    h
+                </span>
+                <span data-text-preloader="o" class="letters-loading">
+                    o
+                </span>
+                <span data-text-preloader="d" class="letters-loading">
+                    d
+                </span>
+                <span data-text-preloader="e" class="letters-loading">
+                    e
+                </span>
+				<span data-text-preloader="x" class="letters-loading">
+                    x
+                </span>
+
+                   <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="o" class="letters-loading">
+                    o
+                </span>
+                <span data-text-preloader="u" class="letters-loading">
+                    u
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+                <span data-text-preloader="s" class="letters-loading">
+                    s
+                </span>
+
+				<span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="n" class="letters-loading">
+                    n
+                </span>
+                <span data-text-preloader="d" class="letters-loading">
+                    d
+                </span>
+
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+                <span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="v" class="letters-loading">
+                    v
+                </span>
+                <span data-text-preloader="e" class="letters-loading">
+                    e
+                </span>
+                <span data-text-preloader="l" class="letters-loading">
+                    l
+                </span>
 		
-        <title>Vivi- About Us Page</title>
-		 		   <link rel="icon" type="image/x-icon" href="asse/img/fav.png">
+            </div>
+        </div>
+    </div>
+    <!--==================== Preloader End ====================-->
 
-        <!-- Custom CSS -->
-        <link href="asse/css/styles.css" rel="stylesheet">
-		
-    </head>
-	
-    <body>
-	
-		 <!-- ============================================================== -->
-        <!-- Preloader - style you can find in spinners.css -->
-        <!-- ============================================================== -->
-       <div class="preloader"></div>
-		
-        <!-- ============================================================== -->
-        <!-- Main wrapper - style you can find in pages.scss -->
-        <!-- ============================================================== -->
-        <div id="main-wrapper">
-		
-            <!-- ============================================================== -->
-            <!-- Top header  -->
-            <!-- ============================================================== -->
-			<div class="py-2 bg-dark">
-				<div class="container">
-					<div class="row">
-						
-						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 hide-ipad">
-							<div class="top_first"><a href="callto:(+84)0123456789" class="medium text-light">(+84) 0123 456 789</a></div>
-						</div>
-						
-						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 hide-ipad">
-							<div class="top_second text-center"><p class="medium text-light m-0 p-0">Get Free delivery from $2000 <a href="#" class="medium text-light text-underline">Shop Now</a></p></div>
-						</div>
-						
-						<!-- Right Menu -->
-						<div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
 
-							<div class="currency-selector dropdown js-dropdown float-right">
-								<a href="javascript:void(0);" data-bs-toggle="dropdown" class="popup-title"  title="Currency" aria-label="Currency dropdown">
-									<span class="hidden-xl-down medium text-light">Currency:</span>
-									<span class="iso_code medium text-light">$USD</span>
-									<i class="fa fa-angle-down medium text-light"></i>
-								</a>
-								<ul class="popup-content dropdown-menu">  
-									<li><a title="Euro" href="#" class="dropdown-item medium text-medium">EUR €</a></li>
-									<li class="current"><a title="US Dollar" href="#" class="dropdown-item medium text-medium">USD $</a></li>
-								</ul>
-							</div>
-							
-							<!-- Choose Language -->
-						
-							<div class="language-selector-wrapper dropdown js-dropdown float-right me-3">
-								<a class="popup-title" href="javascript:void(0)" data-bs-toggle="dropdown" title="Language" aria-label="Language dropdown">
-									<span class="hidden-xl-down medium text-light">Language:</span>
-									<span class="iso_code medium text-light">English</span>
-									<i class="fa fa-angle-down medium text-light"></i>
-								</a>
-								<ul class="dropdown-menu popup-content link">
-									<li class="current"><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/1.jpg" alt="en" width="16" height="11" /><span>English</span></a></li>
-									<li><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/2.jpg" alt="fr" width="16" height="11" /><span>Français</span></a></li>
-									<li><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/3.jpg" alt="de" width="16" height="11" /><span>Deutsch</span></a></li>
-									<li><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/4.jpg" alt="it" width="16" height="11" /><span>Italiano</span></a></li>
-									<li><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/5.jpg" alt="es" width="16" height="11" /><span>Español</span></a></li>
-									<li ><a href="javascript:void(0);" class="dropdown-item medium text-medium"><img src="asse/img/6.jpg" alt="ar" width="16" height="11" /><span>اللغة العربية</span></a></li>
-								</ul>
-							</div>
-							
-							<div class="currency-selector dropdown js-dropdown float-right me-3">
-								<a href="javascript:void(0);" class="text-light medium">Wishlist</a>
-							</div>
-							
-							<div class="currency-selector dropdown js-dropdown float-right me-3">
-								<a href="javascript:void(0);" class="text-light medium">My Account</a>
-							</div>
-							
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			
-            <!-- Start Navigation -->
-			<div class="header header-light dark-text">
-				<div class="container">
-					<nav id="navigation" class="navigation navigation-landscape">
-						<div class="nav-header">
-							<a class="nav-brand" href="#">
-								<img src="asse/img/logo.png" class="logo" alt="" />
-							</a>
-							<div class="nav-toggle"></div>
-							<div class="mobile_nav">
-								<ul>
-									<li>
-									<a href="#" onclick="openSearch()">
-										<i class="lni lni-search-alt"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" data-bs-toggle="modal" data-bs-target="#login">
-										<i class="lni lni-user"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" onclick="openWishlist()">
-										<i class="lni lni-heart"></i><span class="dn-counter">2</span>
-									</a>
-								</li>
-								<li>
-									<a href="#" onclick="openCart()">
-										<i class="lni lni-shopping-basket"></i><span class="dn-counter">{{\Illuminate\Support\Facades\Session::has('cat') ? \Illuminate\Support\Facades\Session::get('cat')->totalQty: ''}}</span>
-									</a>
-								</li>
-								</ul>
-							</div>
-						</div>
-						<div class="nav-menus-wrapper" style="transition-property: none;">
-							<ul class="nav-menu">
-							
-								<li><a href="{{url('/')}}">Home</a>
-								
-								</li>
-								<li><a href="{{url('about')}}">About Us</a>
-									
-								</li>
-								<li><a href="{{url('shop')}}">Shop</a>
-									
-								</li>
-								
-								<li><a href="{{url('blog')}}">Blog</a>
-								
-								</li>
-								
-								<li><a href="{{url('contact')}}">Contact</a>
-									
-								</li>
-								
-								
-							</ul>
-							
-							<ul class="nav-menu nav-menu-social align-to-right">
-								<li>
-									<a href="#" onclick="openSearch()">
-										<i class="lni lni-search-alt"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" data-bs-toggle="modal" data-bs-target="#login">
-										<i class="lni lni-user"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" onclick="openWishlist()">
-										<i class="lni lni-heart"></i><span class="dn-counter">2</span>
-									</a>
-								</li>
-								<li>
-									<a href="#" onclick="openCart()">
-										<i class="lni lni-shopping-basket"></i><span class="dn-counter">{{\Illuminate\Support\Facades\Session::has('cat') ? \Illuminate\Support\Facades\Session::get('cat')->totalQty: ''}}</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-			<!-- End Navigation -->
-			<div class="clearfix"></div>
-			<!-- ============================================================== -->
-			<!-- Top header  -->
-			<!-- ============================================================== -->
-			
-			<!-- ======================= Top Breadcrubms ======================== -->
-			<div class="gray py-3">
-				<div class="container">
-					<div class="row">
-						<div class="colxl-12 col-lg-12 col-md-12">
-							<nav aria-label="breadcrumb">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
-									<li class="breadcrumb-item active" aria-current="page">About Us</li>
-								</ol>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- ======================= Top Breadcrubms ======================== -->
-			
-			<!-- ======================= About Us Detail ======================== -->
-			<section class="middle">
-				<div class="container">
-					<div class="row align-items-center justify-content-between">
-					
-						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<div class="abt_caption">
-								<h2 class="ft-medium mb-4">We Have Everything You Need ?</h2>
-								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								<p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-								<div class="form-group mt-4">
-									<a href="#" class="btn btn-dark">See More Info</a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<div class="abt_caption">
-								<img src="asse/img/about-1.png" class="img-fluid rounded" alt="" />
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			<!-- ======================= About Us End ======================== -->
-			
-			<!-- ======================= About Us Detail ======================== -->
-			<section class="middle">
-				<div class="container">
-					<div class="row align-items-center justify-content-between">
-						
-						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<div class="abt_caption">
-								<img src="asse/img/about-2.png" class="img-fluid rounded" alt="" />
-							</div>
-						</div>
-						
-						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<div class="abt_caption">
-								<h2 class="ft-medium mb-4">Justin Lisiakir</h2>
-								<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								<p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-								<div class="form-group mt-4">
-									<a href="#" class="btn btn-dark">See More Info</a>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			<!-- ======================= About Us End ======================== -->
-			
-			<!-- ============================= Customer Features =============================== -->
-			<section class="px-0 py-3 br-top">
-				<div class="container">
-					<div class="row">
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-shopping-basket theme-cl"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">Free Shipping</h5>
-									<span class="text-muted">Capped at $10 per order</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="far fa-credit-card theme-cl"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">Secure Payments</h5>
-									<span class="text-muted">Up to 6 months installments</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-shield-alt theme-cl"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">15-Days Returns</h5>
-									<span class="text-muted">Shop with fully confidence</span>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-							<div class="d-flex align-items-center justify-content-start py-2">
-								<div class="d_ico">
-									<i class="fas fa-headphones-alt theme-cl"></i>
-								</div>
-								<div class="d_capt">
-									<h5 class="mb-0">24x7 Fully Support</h5>
-									<span class="text-muted">Get friendly support</span>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</section>
-			<!-- ======================= Customer Features ======================== -->
-			
-			<!-- ============================ Footer Start ================================== -->
-			<footer class="dark-footer skin-dark-footer style-2">
-				<div class="footer-middle">
-					<div class="container">
-						<div class="row">
-							
-							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-								<div class="footer_widget">
-									<img src="asse/img/logo.png" class="img-footer small mb-2" alt="" />
-									
-									<div class="address mt-3">
-										3298 Grant Street Longview, TX<br>United Kingdom 75601	
-									</div>
-									<div class="address mt-3">
-										1-202-555-0106<br>help@shopper.com
-									</div>
-									<div class="address mt-3">
-										<ul class="list-inline">
-											<li class="list-inline-item"><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-youtube"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-instagram-filled"></i></a></li>
-											<li class="list-inline-item"><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
-								<div class="footer_widget">
-									<h4 class="widget_title">Supports</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Contact Us</a></li>
-										<li><a href="#">About Page</a></li>
-										<li><a href="#">Size Guide</a></li>
-										<li><a href="#">Shipping & Returns</a></li>
-										<li><a href="#">FAQ's Page</a></li>
-										<li><a href="#">Privacy</a></li>
-									</ul>
-								</div>
-							</div>
-									
-							<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
-								<div class="footer_widget">
-									<h4 class="widget_title">Shop</h4>
-									<ul class="footer-menu">
-										<li><a href="#">Men's Shopping</a></li>
-										<li><a href="#">Women's Shopping</a></li>
-										<li><a href="#">Kids's Shopping</a></li>
-										<li><a href="#">Furniture</a></li>
-										<li><a href="#">Discounts</a></li>
-									</ul>
-								</div>
-							</div>
-					
-							<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
-								<div class="footer_widget">
-									<h4 class="widget_title">Company</h4>
-									<ul class="footer-menu">
-										<li><a href="#">About</a></li>
-										<li><a href="#">Blog</a></li>
-										<li><a href="#">Affiliate</a></li>
-										<li><a href="#">Login</a></li>
-									</ul>
-								</div>
-							</div>
-							
-							<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-								<div class="footer_widget">
-									<h4 class="widget_title">Subscribe</h4>
-									<p>Receive updates, hot deals, discounts sent straignt in your inbox daily</p>
-									<div class="foot-news-last">
-										<div class="input-group">
-										  <input type="text" class="form-control" placeholder="Email Address">
-											<div class="input-group-append">
-												<button type="button" class="input-group-text rounded-0 text-light"><i class="lni lni-arrow-right"></i></button>
-											</div>
-										</div>
-									</div>
-									<div class="address mt-3">
-										<h5 class="fs-sm text-light">Secure Payments</h5>
-										<div class="scr_payment"><img src="asse/img/card.png" class="img-fluid" alt="" /></div>
-									</div>
-								</div>
-							</div>
-								
-						</div>
-					</div>
-				</div>
-				
-				<div class="footer-bottom">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-lg-12 col-md-12 text-center">
-								<p class="mb-0">© 2021 Kumo. Designd By <a href="https://themezhub.com/">ThemezHub</a>.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-			<!-- ============================ Footer End ================================== -->
-			
-			<!-- Product View Modal -->
-			<div class="modal fade lg-modal" id="quickview" tabindex="-1" role="dialog" aria-labelledby="quickviewmodal" aria-hidden="true">
-				<div class="modal-dialog modal-xl login-pop-form" role="document">
-					<div class="modal-content" id="quickviewmodal">
-						<div class="modal-headers">
-							<button type="button" class="border-0 close" data-bs-dismiss="modal" aria-label="Close">
-							  <span class="ti-close"></span>
-							</button>
-						  </div>
-					
-						<div class="modal-body">
-							<div class="quick_view_wrap">
-					
-								<div class="quick_view_thmb">
-									<div class="quick_view_slide">
-										<div class="single_view_slide"><img src="asse/img/product/1.jpg" class="img-fluid" alt="" /></div>
-										<div class="single_view_slide"><img src="asse/img/product/2.jpg" class="img-fluid" alt="" /></div>
-										<div class="single_view_slide"><img src="asse/img/product/3.jpg" class="img-fluid" alt="" /></div>
-										<div class="single_view_slide"><img src="asse/img/product/4.jpg" class="img-fluid" alt="" /></div>
-									</div>
-								</div>
-								
-								<div class="quick_view_capt">
-									<div class="prd_details">
-										
-										<div class="prt_01 mb-1"><span class="text-light bg-info rounded px-2 py-1">Dresses</span></div>
-										<div class="prt_02 mb-2">
-											<h2 class="ft-bold mb-1">Women Striped Shirt Dress</h2>
-											<div class="text-left">
-												<div class="star-rating align-items-center d-flex justify-content-left mb-1 p-0">
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star"></i>
-													<span class="small">(412 Reviews)</span>
-												</div>
-												<div class="elis_rty"><span class="ft-medium text-muted line-through fs-md me-2">$199</span><span class="ft-bold theme-cl fs-lg me-2">$110</span><span class="ft-regular text-danger bg-light-danger py-1 px-2 fs-sm">Out of Stock</span></div>
-											</div>
-										</div>
-										
-										<div class="prt_03 mb-3">
-											<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
-										</div>
-										
-										<div class="prt_04 mb-2">
-											<p class="d-flex align-items-center mb-0 text-dark ft-medium">Color:</p>
-											<div class="text-left">
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="white8">
-													<label class="form-option-label rounded-circle" for="white8"><span class="form-option-color rounded-circle blc7"></span></label>
-												</div>
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="blue8">
-													<label class="form-option-label rounded-circle" for="blue8"><span class="form-option-color rounded-circle blc2"></span></label>
-												</div>
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="yellow8">
-													<label class="form-option-label rounded-circle" for="yellow8"><span class="form-option-color rounded-circle blc5"></span></label>
-												</div>
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="pink8">
-													<label class="form-option-label rounded-circle" for="pink8"><span class="form-option-color rounded-circle blc3"></span></label>
-												</div>
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="red">
-													<label class="form-option-label rounded-circle" for="red"><span class="form-option-color rounded-circle blc4"></span></label>
-												</div>
-												<div class="form-check form-option form-check-inline mb-1">
-													<input class="form-check-input" type="radio" name="color8" id="green">
-													<label class="form-option-label rounded-circle" for="green"><span class="form-option-color rounded-circle blc6"></span></label>
-												</div>
-											</div>
-										</div>
-										
-										<div class="prt_04 mb-4">
-											<p class="d-flex align-items-center mb-0 text-dark ft-medium">Size:</p>
-											<div class="text-left pb-0 pt-2">
-												<div class="form-check size-option form-option form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="28" checked="">
-													<label class="form-option-label" for="28">28</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="30">
-													<label class="form-option-label" for="30">30</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="32">
-													<label class="form-option-label" for="32">32</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="34">
-													<label class="form-option-label" for="34">34</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="36">
-													<label class="form-option-label" for="36">36</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="38">
-													<label class="form-option-label" for="38">38</label>
-												</div>
-												<div class="form-check form-option size-option  form-check-inline mb-2">
-													<input class="form-check-input" type="radio" name="size" id="40">
-													<label class="form-option-label" for="40">40</label>
-												</div>
-											</div>
-										</div>
-										
-										<div class="prt_05 mb-4">
-											<div class="form-row row g-3 mb-7">
-												<div class="col-12 col-md-6 col-lg-3">
-													<!-- Quantity -->
-													<select class="mb-2 custom-select">
-													  <option value="1" selected="">1</option>
-													  <option value="2">2</option>
-													  <option value="3">3</option>
-													  <option value="4">4</option>
-													  <option value="5">5</option>
-													</select>
-												</div>
-												<div class="col-12 col-md-12 col-lg-6">
-													<!-- Submit -->
-													<button type="submit" class="btn btn-block custom-height bg-dark mb-2 w-100">
-														<i class="lni lni-shopping-basket me-2"></i>Add to Cart 
-													</button>
-												</div>
-												<div class="col-12 col-md-6 col-lg-3">
-													<!-- Wishlist -->
-													<button class="btn custom-height btn-default btn-block mb-2 text-dark" data-bs-toggle="button">
-														<i class="lni lni-heart me-2"></i>Wishlist
-													</button>
-												</div>
-										  </div>
-										</div>
-										
-										<div class="prt_06">
-											<p class="mb-0 d-flex align-items-center">
-											  <span class="me-4">Share:</span>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted me-2" href="#!">
-												<i class="fab fa-twitter position-absolute"></i>
-											  </a>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted me-2" href="#!">
-												<i class="fab fa-facebook-f position-absolute"></i>
-											  </a>
-											  <a class="d-inline-flex align-items-center justify-content-center p-3 gray circle fs-sm text-muted" href="#!">
-												<i class="fab fa-pinterest-p position-absolute"></i>
-											  </a>
-											</p>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Modal -->
-			
-			<!-- Log In Modal -->
-			<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
-				<div class="modal-dialog login-pop-form" role="document">
-					<div class="modal-content" id="loginmodal">
-						<div class="modal-headers">
-							<button type="button" class="border-0 close" data-bs-dismiss="modal" aria-label="Close">
-							  <span class="ti-close"></span>
-							</button>
-						  </div>
-					
-						<div class="modal-body p-5">
-							<div class="text-center mb-4">
-								<h2 class="m-0 ft-regular">Login</h2>
-							</div>
-							
-							<form>				
-								<div class="form-group mb-3">
-									<label class="mb-2">User Name</label>
-									<input type="text" class="form-control" placeholder="Username*">
-								</div>
-								
-								<div class="form-group mb-3">
-									<label class="mb-2">Password</label>
-									<input type="password" class="form-control" placeholder="Password*">
-								</div>
-								
-								<div class="form-group mb-3">
-									<div class="d-flex align-items-center justify-content-between">
-										<div class="flex-1">
-											<input id="dd" class="checkbox-custom" name="dd" type="checkbox">
-											<label for="dd" class="checkbox-custom-label">Remember Me</label>
-										</div>	
-										<div class="eltio_k2">
-											<a href="#">Lost Your Password?</a>
-										</div>	
-									</div>
-								</div>
-								
-								<div class="form-group mb-3">
-									<button type="submit" class="btn btn-md full-width bg-dark text-light fs-md ft-medium">Login</button>
-								</div>
-								
-								<div class="form-group text-center mb-0">
-									<p class="extra">Not a member?<a href="#et-register-wrap" class="text-dark"> Register</a></p>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Modal -->
-			
-			<!-- Search -->
-			<div class="w3-ch-sideBar w3-bar-block w3-card-2 w3-animate-right" style="display:none;right:0;" id="Search">
-				<div class="rightMenu-scroll">
-					<div class="d-flex align-items-center justify-content-between slide-head py-3 px-3">
-						<h4 class="cart_heading fs-md ft-medium mb-0">Search Products</h4>
-						<button onclick="closeSearch()" class="close_slide"><i class="ti-close"></i></button>
-					</div>
-						
-					<div class="cart_action px-3 py-4">
-						<form class="form m-0 p-0">
-							<div class="form-group mb-3">
-								<input type="text" class="form-control" placeholder="Product Keyword.." />
-							</div>
-							
-							<div class="form-group mb-3">
-								<select class="custom-select">
-								  <option value="1" selected="">Choose Category</option>
-								  <option value="2">Men's Store</option>
-								  <option value="3">Women's Store</option>
-								  <option value="4">Kid's Fashion</option>
-								  <option value="5">Inner Wear</option>
-								</select>
-							</div>
-							
-							<div class="form-group mb-0">
-								<button type="button" class="btn d-block full-width btn-dark">Search Product</button>
-							</div>
-						</form>
-					</div>
-					
-					<div class="d-flex align-items-center justify-content-center br-top br-bottom py-2 px-3">
-						<h4 class="cart_heading fs-md mb-0">Hot Categories</h4>
-					</div>
-						
-					<div class="cart_action px-3 py-3">
-						<div class="row">
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/tshirt.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">T-Shirts</a></h6></div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/pant.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Pants</a></h6></div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/fashion.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Women's</a></h6></div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/sneakers.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Shoes</a></h6></div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/television.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Television</a></h6></div>
-								</div>
-							</div>
-							<div class="col-xl-4 col-lg-4 col-md-4 col-4 mb-3">
-								<div class="cats_side_wrap text-center">
-									<div class="sl_cat_01"><div class="d-inline-flex align-items-center justify-content-center p-3 circle mb-2 gray"><a href="javascript:void(0);" class="d-block"><img src="asse/img/accessories.png" class="img-fluid" width="40" alt="" /></a></div></div>
-									<div class="sl_cat_02"><h6 class="m-0 ft-medium fs-sm"><a href="javascript:void(0);">Accessories</a></h6></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-			
-			<!-- Wishlist -->
-			<div class="w3-ch-sideBar w3-bar-block w3-card-2 w3-animate-right" style="display:none;right:0;" id="Wishlist">
-				<div class="rightMenu-scroll">
-					<div class="d-flex align-items-center justify-content-between slide-head py-3 px-3">
-						<h4 class="cart_heading fs-md ft-medium mb-0">Saved Products</h4>
-						<button onclick="closeWishlist()" class="close_slide"><i class="ti-close"></i></button>
-					</div>
-					<div class="right-ch-sideBar">
-						
-						<div class="cart_select_items py-2">
-							<!-- Single Item -->
-							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
-								<div class="cart_single d-flex align-items-center">
-									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="asse/img/product/4.jpg" width="60" class="img-fluid" alt="" /></a>
-									</div>
-									<div class="cart_single_caption ps-2">
-										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Women Striped Shirt Dress</h4>
-										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
-									</div>
-								</div>
-								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
-							</div>
-							
-							<!-- Single Item -->
-							<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
-								<div class="cart_single d-flex align-items-center">
-									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="asse/img/product/7.jpg" width="60" class="img-fluid" alt="" /></a>
-									</div>
-									<div class="cart_single_caption ps-2">
-										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Floral Print Jumpsuit</h4>
-										<p class="mb-2"><span class="text-dark ft-medium small">36</span>, <span class="text-dark small">Red</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$129</h4>
-									</div>
-								</div>
-								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
-							</div>
-							
-							<!-- Single Item -->
-							<div class="d-flex align-items-center justify-content-between px-3 py-3">
-								<div class="cart_single d-flex align-items-center">
-									<div class="cart_selected_single_thumb">
-										<a href="#"><img src="asse/img/product/8.jpg" width="60" class="img-fluid" alt="" /></a>
-									</div>
-									<div class="cart_single_caption ps-2">
-										<h4 class="product_title fs-sm ft-medium mb-0 lh-1">Girls Solid A-Line Dress</h4>
-										<p class="mb-2"><span class="text-dark ft-medium small">30</span>, <span class="text-dark small">Blue</span></p>
-										<h4 class="fs-md ft-medium mb-0 lh-1">$100</h4>
-									</div>
-								</div>
-								<div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div>
-							</div>
-							
-						</div>
-						
-						<div class="d-flex align-items-center justify-content-between br-top br-bottom px-3 py-3">
-							<h6 class="mb-0">Subtotal</h6>
-							<h3 class="mb-0 ft-medium">$417</h3>
-						</div>
-						
-						<div class="cart_action px-3 py-3">
-							<div class="form-group mb-3">
-								<button type="button" class="btn d-block full-width btn-dark">Move To Cart</button>
-							</div>
-							<div class="form-group">
-								<button type="button" class="btn d-block full-width btn-dark-light">Edit or View</button>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			
-			<!-- Cart -->
-				<div class="w3-ch-sideBar w3-bar-block w3-card-2 w3-animate-right" style="display:none;right:0;" id="Cart">
-				<div class="rightMenu-scroll">
-					<div class="d-flex align-items-center justify-content-between slide-head py-3 px-3">
-						<h4 class="cart_heading fs-md ft-medium mb-0">Products List</h4>
-						<button onclick="closeCart()" class="close_slide"><i class="ti-close"></i></button>
-					</div>
-					<div class="right-ch-sideBar">
-						
-						<div class="cart_select_items py-2">
-							<!-- Single Item -->
-							@if(isset($products))
-                                @foreach($products as $product)
-									<div class="d-flex align-items-center justify-content-between br-bottom px-3 py-3">
-										<div class="cart_single d-flex align-items-center">
-											<div class="cart_selected_single_thumb">
-												<a href="#"><img src="{{asset('uploads/product/'.$product['item']['product_image'])}}" width="60" class="img-fluid" alt="" /></a>
-											</div>
-											<div class="cart_single_caption ps-2">
-												<h4 class="product_title fs-sm ft-medium mb-0 lh-1">{{$product['item']['product_name']}}</h4>
-												<h4 class="fs-md ft-medium mb-0 lh-1">Ksh {{$product['item']['product_price']}}</h4>
-											</div>
-										</div>
-										<a href="{{url('cartRemove',$product['item']['id'])}}"><div class="fls_last"><button class="close_slide gray"><i class="ti-close"></i></button></div></a>
-									</div>
-					
-							 	@endforeach
-                            @endif
-						</div>
-						
-						<div class="d-flex align-items-center justify-content-between br-top br-bottom px-3 py-3">
-							<h6 class="mb-0">Subtotal</h6>
-							<h3 class="mb-0 ft-medium">Ksh {{$totalPrice}}</h3>
-						</div>
-						
-						<div class="cart_action px-3 py-3">
-							<div class="form-group mb-3">
-								<a href="{{url('cart')}}"><button type="button" class="btn d-block full-width btn-dark">View Cart</button></a>
-							</div>
-							
-						</div>
-						
-					</div>
-				</div>
-			</div>
-			
-			<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
-			
+    <!-- Search Popup Start -->
+    <div class="search_popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search_wrapper">
+                        <div class="search_top d-flex justify-content-between align-items-center">
+                            <div class="search_logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo.png" alt="Logo">
+                                </a>
+                            </div>
+                            <div class="search_close">
+                                <button type="button" class="search_close_btn">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="search_form">
+                            <form action="#">
+                                <div class="search_input">
+                                    <input class="search-input-field" type="text" placeholder="Type here to search...">
+                                    <span class="search-focus-border"></span>
+                                    <button type="submit">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-popup-overlay"></div>
+    <!-- Search Popup End-->
 
-		</div>
-		<!-- ============================================================== -->
-		<!-- End Wrapper -->
-		<!-- ============================================================== -->
 
-		<!-- ============================================================== -->
-		<!-- All Jquery -->
-		<!-- ============================================================== -->
-		<script src="asse/js/jquery.min.js"></script>
-		<script src="asse/js/popper.min.js"></script>
-		<script src="asse/js/bootstrap.min.js"></script>
-		<script src="asse/js/ion.rangeSlider.min.js"></script>
-		<script src="asse/js/slick.js"></script>
-		<script src="asse/js/slider-bg.js"></script>
-		<script src="asse/js/lightbox.js"></script> 
-		<script src="asse/js/smoothproducts.js"></script>
-		<script src="asse/js/snackbar.min.js"></script>
-		<script src="asse/js/jQuery.style.switcher.js"></script>
-		<script src="asse/js/custom.js"></script>
-		<!-- ============================================================== -->
-		<!-- This page plugins -->
-		<!-- ============================================================== -->	
+    <!--==================== mouse cursor drag start ====================-->
+    <div class="mouseCursor cursor-outer d-none"></div>
+     <div class="mouseCursor cursor-inner">
+         <span class="inner-text-1 tw-text-lg fw-bold text-main-600">
+            <span>
+                <svg width="48" height="47" viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.6454 16.1088L15.7477 32.4423L14.3477 30.9082L32.2453 14.5746L33.6454 16.1088Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M31.4786 15.2755C27.8709 18.5679 27.8182 24.431 30.9057 27.8141L31.6057 28.5811L33.1398 27.1811L32.4398 26.414C30.0957 23.8454 30.1506 19.2992 32.8787 16.8096L33.6453 16.1099L32.2453 14.5758L31.4786 15.2755Z" fill="#141616" />
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M32.8783 16.8088C29.2706 20.1012 23.4271 19.6189 20.3397 16.2358L19.6396 15.4688L21.1738 14.0687L21.8738 14.8358C24.218 17.4045 28.7502 17.7643 31.4783 15.2747L32.2449 14.575L33.645 16.1091L32.8783 16.8088Z" fill="#141616" />
+                </svg>
+            </span>
+            <br>
+            get in touch
+         </span>
+         <span class="inner-text-2">
+             <span>
+                 <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path
+                     d="M0.132374 56.2074L6.68723 62.776C6.98521 63.0747 8.773 63.0747 9.07084 62.776L47.2086 25.4537C47.8044 24.8564 48.4004 24.5578 49.2942 24.5578C49.5922 24.5578 50.1881 24.5578 50.486 24.8564C51.6778 25.155 52.2736 26.3494 52.2736 27.5437V46.3542V46.6529H61.8082C62.404 46.6529 62.7022 46.6529 63 46.6529V0.970426C63 0.970426 63 0.970427 62.4042 0.373196C61.8083 -0.224035 62.1063 0.0747274 61.5102 0.0747274H16.8176C16.8176 0.373196 16.8176 0.671811 16.8176 1.56766V10.8234C16.8176 11.4205 16.8176 12.0177 16.8176 12.0177H35.8865C37.0783 12.0177 38.2701 12.6148 38.5679 13.8091C39.1638 15.0034 38.8659 16.1978 37.9721 17.0936L0.728355 54.1174C0.430367 54.416 0.132374 54.7146 0.132374 55.3117C-0.16547 55.9088 0.132374 55.9088 0.132374 56.2074Z"
+                     fill="currentColor" />
+                 </svg>
+             </span>
+         </span>
+     </div>
+    <!--==================== mouse cursor drag end ====================-->
 
-		<script>
-			function openWishlist() {
-				document.getElementById("Wishlist").style.display = "block";
-			}
-			function closeWishlist() {
-				document.getElementById("Wishlist").style.display = "none";
-			}
-		</script>
-		
-		<script>
-			function openCart() {
-				document.getElementById("Cart").style.display = "block";
-			}
-			function closeCart() {
-				document.getElementById("Cart").style.display = "none";
-			}
-		</script>
 
-		<script>
-			function openSearch() {
-				document.getElementById("Search").style.display = "block";
-			}
-			function closeSearch() {
-				document.getElementById("Search").style.display = "none";
-			}
-		</script>		
+    <!--==================== Overlay Start ====================-->
+    <div class="overlay"></div>
+    <!--==================== Overlay End ====================-->
 
-	</body>
+    <!--==================== Sidebar Overlay End ====================-->
+    <div class="side-overlay"></div>
+    <!--==================== Sidebar Overlay End ====================-->
 
-<!-- Mirrored from themezhub.net/kumo-new-update/kumo/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Jun 2025 09:24:10 GMT -->
+    <!-- Custom Toast Message start -->
+    <div id="toast-container"></div>
+    <!-- Custom Toast Message End -->
+
+    <!-- ==================== Scroll to Top End Here ==================== -->
+    <div class="progress-wrap cursor-big">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- ==================== Scroll to Top End Here ==================== -->
+
+    <!-- Custom Cursor Start -->
+    <div class="cursor"></div>
+    <span class="dot"></span>
+    <!-- Custom Cursor End -->
+
+    <!-- ==================== Mobile Menu Start Here ==================== -->
+<div class="mobile-menu d-lg-none d-block scroll-sm position-fixed bg-white tw-w-300-px tw-h-screen overflow-y-auto tw-p-6 tw-z-999 tw--translate-x-full tw-pb-68 ">
+
+    <button type="button" class="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"> 
+        <i class="ph ph-x"></i>
+    </button>
+
+    <div class="mobile-menu__inner">
+        <a href="index.html" class="mobile-menu__logo">
+            <img src="assets/images/logo/logo.png" alt="Logo">
+        </a>
+        <div class="mobile-menu__menu">
+            <!-- Nav menu Start -->
+<ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+ <li class="nav-menu__item activePage">
+        <a href="{{url('/')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
+
+
+<!-- mega menu end -->  
+    </li>
+    <li class="nav-menu__item">
+        <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
+  
+    </li>
+  
+    <li class="nav-menu__item">
+        <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
+    </li>
+</ul>
+<!-- Nav menu End  -->
+        </div>
+    </div>
+</div>
+<!-- ==================== Mobile Menu End Here ==================== -->
+
+<!-- ==================== Header Start Here ==================== -->
+<header class="header tw-transition-all tw-z-99 header-transparent">
+    <div class="container tw-container-1750-px">
+        <nav class="d-flex align-items-center justify-content-between position-relative">
+            <!-- Logo Start -->
+            <div class="logo">
+                <a href="index.html" class="link">
+                    <img src="assets/images/logo/logo.png" alt="Logo" class="max-w-200-px">
+                </a>
+            </div>
+            <!-- Logo End  -->
+
+            <!-- Menu Start  -->
+            <div class="header-menu d-lg-block d-none">
+                <!-- Nav menu Start -->
+<ul class="nav-menu d-lg-flex align-items-center tw-gap-8">
+   <li class="nav-menu__item activePage">
+        <a href="{{url('/')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
+
+        <!-- mega menu start -->
+
+<!-- mega menu end -->  
+    </li>
+      <li class="nav-menu__item">
+        <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
+  
+    </li>
+ 
+    <li class="nav-menu__item">
+        <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
+    </li>
+</ul>
+<!-- Nav menu End  -->
+            </div>
+            <!-- Menu End  -->
+
+            <!-- Header Right start -->
+            <div class="header-right d-flex tw-gap-28">
+
+                <div class="header-call d-flex align-items-center tw-gap-5 tw-me-6">
+                    <div>
+                        <span><img src="assets/images/icons/cellphone.svg" alt="cellphone"></span>
+                    </div>
+                    <div>
+                        <h6 class="text-white fw-normal tw-text-sm font-body tw-mb-2">Need any Help! call Us today</h6>
+                        <a class="text-white font-heading hover-text-main-600" href="tell:+2871382023">254790265966</a>
+                    </div>
+                </div>
+
+                <div class="header-button header-two-button">
+                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="{{url('contact')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                </div>
+
+                <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+            <!-- Header Right End  -->
+
+        </nav>
+    </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+<div id="scrollSmoother-container">
+    <!-- ==================== Breadcrumb Start Here ==================== -->
+<section class="breadcrumb-area background-img position-relative z-1" data-background-image="assets/images/thumbs/breadcrumb-bg.jpg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h2 class="breadcrumb-title tw-text-25 fw-normal text-white tw-char-animation">Our Services</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==================== Breadcrumb End Here ==================== -->
+ 
+    <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
+     <div class="container">
+       
+     </div>
+</div>
+    
+   
+    <div class="pt-120">
+        <section class="about-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-8">
+                <div class="about-thumb position-relative z-1 tw_fade_anim" data-delay=".3">
+                    <div>
+                        <img src="assets/images/thumbs/about-thumb1.jpg" alt="thumb">
+                    </div>
+                    <div class="about-thumb-2 position-absolute ">
+                        <img src="assets/images/thumbs/about-thumb2.jpg" alt="thumb">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-7">
+                <div class="about-wrapper tw-ps-14 tw_fade_anim" data-delay=".5">
+                    <div class="section-wrapper tw-mb-14">
+                         <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Pure Tourist Entertainment</h6>
+                         <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">Our Services</h2>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-6 col-md-6">
+                                <div class="about-list">
+                                    <ul class="d-flex flex-column">
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Game drives</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Cultural sites visitation</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Road Trips</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Ticket Booking</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Hotel Reservations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-6 col-md-6">
+                                <div class="about-list">
+                                    <ul class="d-flex flex-column">
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Weddings</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Inter Hotel Transfers</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Visa Insuarance (Work ,Tourist, Visit Visa)</li>
+                                        <li class="bg-white text-heading fw-semibold d-inline-flex align-items-center tw-gap-4 tw-py-3 tw-ps-5 tw-pe-4 tw-mb-5 tw-rounded-3xl"><span class="tw-text-2xl text-main-600 lh-1 d-inline-block"><i class="ph-bold ph-seal-check"></i></span> Airport Transfers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    <div class="overflow-hidden tw-pb-10">
+  
+</div>
+
+
+
+
+
+    <!-- ==================== Footer Start Here ==================== -->
+<footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <div class="cursor-content tp-cursor-point-area pt-120 tw-pb-18 tw_fade_anim">
+              <h2 class="cursor-text text-center tw-text-15 fw-normal text-white">Experience Elegance. Book Your Escape Today.</h2>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-center-space position-relative z-1">
+        <div class="container container-two">
+          <div class="footer-center-border tw-pt-4">
+            <div class="row gy-5">
+                <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 col-xs-12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="footer-col-1 tw_fade_anim" data-delay=".3">
+                        <h4 class="cursor-big tw-text-9 fw-normal text--white tw-mb-8">Get news & update <br> electricty today</h4>
+                        <form action="#" class="tw-mt-6 position-relative form-submit d-flex tw-gap-2 align-items-center tw-mb-4 flex-wrap">
+                            <input type="email" class="form-control tw-w-288-px  bg-white shadow-none border border-neutral-700 text-heading tw-ps-6 tw-pe-13 focus-border-main-600 tw-h-14 tw-placeholder-text-neutral-700 focus-tw-placeholder-text-hidden tw-placeholder-transition-2" placeholder="Email..." required>
+                            <button type="submit" class="tw-btn-hover-white bg-main-600 text-heading fw-bold tw-py-4 tw-px-8 tw-rounded-md transition-all d-flex tw-gap-3">
+                                Sign Up <span><i class="ph ph-paper-plane-tilt"></i></span>
+                            </button>
+                        </form>
+                        <p class="font-heading fw-normal text-white">By subscribing, you’re accept <a class="text-main-600 hover-text-white text-decoration-underline" href="#">Privacy Policy</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                    <div class="footer-col-2 tw_fade_anim" data-delay=".5">
+                        <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Our Devision</h4>
+                        <ul class="d-flex flex-column tw-gap-4">
+                        
+                            <li>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Insights</a>
+                            </li>
+                       
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-8 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="600">
+                    <div class="footer-col-3 tw_fade_anim" data-delay=".7">
+                        <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">My account</h4>
+                        <ul class="d-flex flex-column tw-gap-4">
+                            <li>
+                                <a href="{{url('contact')}}" class="text--white hover-text-main-600 hover-underline">Contact Us</a>
+                            </li>
+                      
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                    <div class="footer-col-4 tw_fade_anim" data-delay=".9">
+                        <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Service</h4>
+                        <ul class="d-flex flex-column tw-gap-4">
+                         
+                            <li>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Our Services</a>
+                            </li>
+                     
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- bottom Footer -->
+        <div class="footer-bottom tw-py-3">
+            <div class="container container-two">
+                <div class="footer-bottom-wrap d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                  <div class="mb-0 aos-init tw_fade_anim" data-delay=".3">
+                      <a href="{{url('/')}}" class="">
+                          <img src="assets/images/logo/logo.png" alt="Logo">
+                      </a>
+                  </div>
+                  <ul class="footer-bottom-social d-flex align-items-center tw-gap-6 aos-init tw_fade_anim" data-delay=".5">
+                    <li>
+                          <a href="https://www.facebook.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-facebook-logo"></i></a>
+                      </li>
+                      <li>
+                          <a href="https://www.twitter.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-twitter-logo"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-instagram-logo"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.pinterest.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-dribbble-logo"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.pinterest.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-youtube-logo"></i></a>
+                      </li>
+                  </ul>
+                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">Dolex.</a>- Powered by Dolex</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ==================== Footer End Here ==================== -->
+</div>
+<!-- Jquery js -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<!-- phosphor Js -->
+<script src="assets/js/phosphor-icon.js"></script>
+<!-- Bootstrap Bundle Js -->
+<script src="assets/js/boostrap.bundle.min.js"></script>
+<!-- appear Js -->
+<script src="assets/js/appear.min.js"></script>
+<!-- Swiper Bundle Js -->
+<script src="assets/js/swiper-bundle.js"></script>
+<!-- slick Js -->
+<script src="assets/js/slick.js"></script>
+<!-- Magnific-Popup Js -->
+<script src="assets/js/magnific-popup.min.js"></script>
+<!-- Nice-Select Js -->
+<script src="assets/js/nice-select.js"></script>
+<!-- purecounter Js -->
+<script src="assets/js/purecounter.js"></script>
+<!-- Range Slider -->
+<script src="assets/js/range-slider.js"></script>
+<!-- knob -->
+<script src="assets/js/jquery-knob.js"></script>
+<!-- Gsap js -->
+<script src="assets/js/gsap.min.js"></script>
+<!-- SplitText -->
+<script src="assets/js/SplitText.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollSmoother.min.js"></script>
+<!-- Scroll Trigger -->
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<!-- Custom GSAP -->
+<script src="assets/js/custom-gsap.js"></script>
+<!-- Marquee -->
+<script src="assets/js/jquery.marquee.min.js"></script>
+<!-- main js -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+<!-- Mirrored from wowtheme7.com/tf/elitestay/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:14:36 GMT -->
 </html>

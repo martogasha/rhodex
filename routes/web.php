@@ -64,7 +64,7 @@ Route::get('maintenance','InternetController@maintenance');
 Route::get('dataRecovery','InternetController@recovery');
 Route::get('webDesign','InternetController@webDesign');
 Route::get('NetworkingService','InternetController@networking');
-Route::resource('about','AboutController');
+Route::resource('services','AboutController');
 Route::resource('aboutOne','AboutOneController');
 Route::resource('aboutOne','AboutOneController');
 Route::get('contact','AboutController@contact');

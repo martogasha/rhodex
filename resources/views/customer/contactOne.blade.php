@@ -10,7 +10,7 @@
     <meta name="robots" content="INDEX,FOLLOW" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!-- Title -->
-    <title>Rhodex Limited - contact</title>
+    <title>Star Rhodex Tours and Travel- contact</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
     <!-- Bootstrap -->
@@ -72,6 +72,51 @@
                 </span>
 				<span data-text-preloader="x" class="letters-loading">
                     x
+                </span>
+
+                            <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="o" class="letters-loading">
+                    o
+                </span>
+                <span data-text-preloader="u" class="letters-loading">
+                    u
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+                <span data-text-preloader="s" class="letters-loading">
+                    s
+                </span>
+
+				<span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="n" class="letters-loading">
+                    n
+                </span>
+                <span data-text-preloader="d" class="letters-loading">
+                    d
+                </span>
+
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+                <span data-text-preloader="a" class="letters-loading">
+                    a
+                </span>
+                <span data-text-preloader="v" class="letters-loading">
+                    v
+                </span>
+                <span data-text-preloader="e" class="letters-loading">
+                    e
+                </span>
+                <span data-text-preloader="l" class="letters-loading">
+                    l
                 </span>
             </div>
         </div>
@@ -194,85 +239,19 @@
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
 <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
-    <li class="nav-menu__item has-submenu activePage">
+    <li class="nav-menu__item">
         <a href="{{url('/')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
 
         <!-- mega menu start -->
 
 <!-- mega menu end -->  
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Pages</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="about.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">About Us</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service Details</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="animations.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Our Animations</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="offers.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Offers</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="gallery.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Gallery</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="pricing.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Pricing</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="testimonial.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Testimonial</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="appointment.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Book An Appointment</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Room</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room Details</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Destination</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination Details</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-grid.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog Grid</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Blog Details</a>
-            </li>
-        </ul>
-    </li>
     <li class="nav-menu__item">
+        <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
+      
+    </li>
+ 
+    <li class="nav-menu__item has-submenu activePage">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
 </ul>
@@ -298,82 +277,16 @@
             <div class="header-menu d-lg-block d-none">
                 <!-- Nav menu Start -->
 <ul class="nav-menu d-lg-flex align-items-center tw-gap-8">
-    <li class="nav-menu__item has-submenu activePage">
+    <li class="nav-menu__item">
         <a href="{{url('/')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
 <!-- mega menu end -->  
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Pages</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="about.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">About Us</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service Details</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="animations.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Our Animations</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="offers.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Offers</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="gallery.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Gallery</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="pricing.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Pricing</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="testimonial.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Testimonial</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="appointment.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Book An Appointment</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Room</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room Details</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Destination</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination Details</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-grid.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog Grid</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Blog Details</a>
-            </li>
-        </ul>
-    </li>
     <li class="nav-menu__item">
+        <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
+  
+    </li>
+ 
+    <li class="nav-menu__item activePage">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
 </ul>
@@ -395,7 +308,7 @@
                 </div>
 
                 <div class="header-button header-two-button">
-                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="contact.html">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="{{url('contact')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                 </div>
 
                 <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
@@ -436,7 +349,6 @@
                                 <div class="section-two-wrapper tw-mb-14">
                                     <h6 class="section-two-subtitle tw-text-xl text-uppercase text-main-three-800 tw-mb-4">Get In Touch</h6>
                                     <h2 class="section-two-title tw-text-16 fw-normal tw-mb-6 tw-char-animation">Contact Us</h2>
-                                    <p class="fw-medium tw-text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque inventore</p>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
@@ -446,7 +358,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="tw-text-2xl fw-normal tw-mb-3">Location</h4>
-                                                <p>55 Main street, 2nd block, <br> Nairobi</p>
+                                                <p>Kikuyu, Nairobi</p>
                                             </div>
                                         </div>
                                     </div>
@@ -573,28 +485,15 @@
                         <p class="font-heading fw-normal text-white">By subscribing, you’re accept <a class="text-main-600 hover-text-white text-decoration-underline" href="#">Privacy Policy</a></p>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+              <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
                     <div class="footer-col-2 tw_fade_anim" data-delay=".5">
                         <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Our Devision</h4>
                         <ul class="d-flex flex-column tw-gap-4">
+                        
                             <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Store Directory</a>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Insights</a>
                             </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Top Hotels</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Quick Links</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Important Links</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Insights</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Knowledge Center</a>
-                            </li>
+                       
                         </ul>
                     </div>
                 </div>
@@ -605,18 +504,7 @@
                             <li>
                                 <a href="{{url('contact')}}" class="text--white hover-text-main-600 hover-underline">Contact Us</a>
                             </li>
-                            <li>
-                                <a href="faq.html" class="text--white hover-text-main-600 hover-underline">FAQ Page</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Get In Touch</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Global Network</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Suport 24/7</a>
-                            </li>
+                      
                         </ul>
                     </div>
                 </div>
@@ -624,24 +512,11 @@
                     <div class="footer-col-4 tw_fade_anim" data-delay=".9">
                         <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Service</h4>
                         <ul class="d-flex flex-column tw-gap-4">
+                         
                             <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Request A Freight</a>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Our Services</a>
                             </li>
-                            <li>
-                                <a href="service-details.html" class="text--white hover-text-main-600 hover-underline">Our Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">What We Do</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Abandonment Cart</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Shipments</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Pricing Flexibility</a>
-                            </li>
+                     
                         </ul>
                     </div>
                 </div>
