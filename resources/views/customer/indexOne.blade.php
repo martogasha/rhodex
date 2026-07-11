@@ -665,7 +665,7 @@
       </div>
       <div class="modal-body">
 <div class="video-container">
-    <video width="100%" height="auto" controls preload="auto" poster="{{ asset('images/thumbnail.jpg') }}">
+    <video width="100%" height="auto" controls preload="auto" poster="{{ asset('images/thumbnail.jpg') }}" id="myVideo">
         <source src="{{ asset('assets/videos/sample.mp4') }}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -723,6 +723,9 @@ $(document).ready(function() {
     $('#closeBtn').click(function() {
         // Target your modal ID and close it
         $('#exampleModalCenter').modal('hide'); 
+          var video = $('#myVideo').get(0); // Get HTML video element
+    video.pause();                    // Stop playback
+    video.currentTime = 0;   
     });
     </script>
 
