@@ -716,17 +716,9 @@
 </body>
 <script>
 $(document).ready(function() {
-     // Check if the user has visited before
-    if (!localStorage.getItem('hasVisited')) {
-        
-  
-        // Open your modal (Replace with your specific modal plugin's launch code)
-        $('#exampleModalCenter').modal('show'); 
-                 // Set the flag in localStorage so it won't show again
-        localStorage.setItem('hasVisited', 'true');
-    }
- 
-        
+     // Check if the 'visited' flag exists in localStorage
+
+        $('#exampleModalCenter').modal('show');
 
 });
   // When the button with ID "closeBtn" is clicked
