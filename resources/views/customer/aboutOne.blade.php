@@ -132,7 +132,7 @@
                     <div class="search_wrapper">
                         <div class="search_top d-flex justify-content-between align-items-center">
                             <div class="search_logo">
-                                <a href="index.html">
+                                <a href="{{url('/')}}">
                                     <img src="assets/images/logo/logo.png" alt="Logo">
                                 </a>
                             </div>
@@ -266,7 +266,7 @@
         <nav class="d-flex align-items-center justify-content-between position-relative">
             <!-- Logo Start -->
             <div class="logo">
-                <a href="index.html" class="link">
+                <a href="{{url('/')}}" class="link">
                     <img src="assets/images/logo/logo.png" alt="Logo" class="max-w-200-px">
                 </a>
             </div>

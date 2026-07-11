@@ -551,7 +551,8 @@
         </div>
     </div>
 </section>
- 
+ <!-- Modal -->
+
 
     <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
@@ -654,6 +655,27 @@
 </footer>
 <!-- ==================== Footer End Here ==================== -->
 </div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Pure Tourist Entertainment</h5>
+          
+        </button>
+      </div>
+      <div class="modal-body">
+<div class="video-container">
+    <video width="100%" height="auto" controls preload="auto" poster="{{ asset('images/thumbnail.jpg') }}">
+        <source src="{{ asset('assets/videos/sample.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="closeBtn">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Jquery js -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
@@ -693,19 +715,22 @@
 
 </body>
 <script>
-    document.getElementById('smooth-link').addEventListener('click', function(event) {
-    // 1. Prevent the instant HTML snap jump
-    event.preventDefault(); 
-    
-    // 2. Locate the target element
-    const targetElement = document.getElementById('target-div');
-    
-    // 3. Smoothly scroll to it
-    targetElement.scrollIntoView({ 
-        behavior: 'smooth', 
-        block: 'start' 
-    });
+$(document).ready(function() {
+    // Check if the 'visited' flag exists in localStorage
+   if (!localStorage.getItem('hasVisited')) {
+        // Open your modal (Replace with your specific modal plugin's launch code)
+        $('#exampleModalCenter').modal('show'); 
+             // Set the flag so it doesn't open on the next visit
+        localStorage.setItem('hasVisited', 'true');
+    }
+        
+
 });
+  // When the button with ID "closeBtn" is clicked
+    $('#closeBtn').click(function() {
+        // Target your modal ID and close it
+        $('#exampleModalCenter').modal('hide'); 
+    });
     </script>
 
 <!-- Mirrored from wowtheme7.com/tf/elitestay/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:13:21 GMT -->
