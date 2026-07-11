@@ -670,9 +670,7 @@
         Your browser does not support the video tag.
     </video>
 </div>      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" id="closeBtn">Close</button>
-      </div>
+ 
     </div>
   </div>
 </div>
