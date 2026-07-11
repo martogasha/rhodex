@@ -659,7 +659,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Pure Tourist Entertainment</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle">Pure Tourist Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-secondary" id="closeBtn">X</button></h5>
           
         </button>
       </div>
@@ -717,12 +717,11 @@
 <script>
 $(document).ready(function() {
     // Check if the 'visited' flag exists in localStorage
-   if (!localStorage.getItem('hasVisited')) {
+  
         // Open your modal (Replace with your specific modal plugin's launch code)
         $('#exampleModalCenter').modal('show'); 
              // Set the flag so it doesn't open on the next visit
-        localStorage.setItem('hasVisited', 'true');
-    }
+ 
         
 
 });
