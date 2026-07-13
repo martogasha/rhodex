@@ -436,6 +436,19 @@
            </div>
         </div>
         <div class="row">
+               <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="offer-wrapper overflow-hidden tw-mb-7 tw_fade_anim" data-delay=".3">
+                    <div class="position-relative z-1">
+                        <a href="{{url('contact')}}">
+                            <video width="450" height="315" controls preload="auto" poster="{{ asset('images/thumbnail.jpg') }}" id="myVideo">
+                                <source src="{{ asset('assets/videos/sample.mp4') }}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>        
+                    </a>
+                    
+                    </div>
+                </div>
+            </div>
             <div class="col-xl-4 col-lg-6 col-md-6">
                 <div class="offer-wrapper overflow-hidden tw-mb-7 tw_fade_anim" data-delay=".3">
                     <div class="position-relative z-1">
@@ -655,25 +668,7 @@
 </footer>
 <!-- ==================== Footer End Here ==================== -->
 </div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-        <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Pure Tourist Entertainment &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-secondary" id="closeBtn">X</button></h5>
-          
-        </button>
-      </div>
-      <div class="modal-body">
-<div class="video-container">
-    <video width="100%" height="auto" controls preload="auto" poster="{{ asset('images/thumbnail.jpg') }}" id="myVideo">
-        <source src="{{ asset('assets/videos/sample.mp4') }}" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>      </div>
- 
-    </div>
-  </div>
-</div>
+
 <!-- Jquery js -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
