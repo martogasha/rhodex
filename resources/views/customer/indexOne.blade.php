@@ -337,7 +337,7 @@
                         <div class="">
                            
                             <div class="d-flex align-items-center tw-gap-2">
-                                <span class="tw-text-xl text-white font-heading">Starrhodextoursandtravelsltd@gmail.com</span>
+                                <span class="tw-text-xl text-white font-heading">Starrhodextours@gmail.com</span>
                     
                             </div>
                        
