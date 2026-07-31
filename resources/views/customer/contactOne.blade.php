@@ -394,7 +394,7 @@
                                                 <h4 class="tw-text-2xl fw-normal tw-mb-4">Social</h4>
                                                 <ul class="d-flex align-items-center tw-gap-2">
                                                     <li>
-                                                        <a class="tw-w-9 tw-h-9 lh-1 d-inline-flex align-items-center justify-content-center border border-neutral rounded-circle text-heading hover-bg-main-600 hover-text-heading hover-border-main-600" href="https://www.facebook.com/"><i class="ph-bold ph-facebook-logo"></i></a>
+                                                        <a class="tw-w-9 tw-h-9 lh-1 d-inline-flex align-items-center justify-content-center border border-neutral rounded-circle text-heading hover-bg-main-600 hover-text-heading hover-border-main-600" href="https://www.facebook.com/profile.php?id=61564145039748&mibextid=ZbWKwL" target="_blank"><i class="ph-bold ph-facebook-logo"></i></a>
                                                     </li>
                                                     <li>
                                                         <a class="tw-w-9 tw-h-9 lh-1 d-inline-flex align-items-center justify-content-center border border-neutral rounded-circle text-heading hover-bg-main-600 hover-text-heading hover-border-main-600" href="https://www.twitter.com/"><i class="ph-bold ph-twitter-logo"></i></a>
