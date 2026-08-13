@@ -109,28 +109,21 @@ class MpesaController extends Controller
         return view('customer.checkout')->with('success','PAYMENT RECEIVED');
     }
     public function storeWebhooks(Request $request){
-        Log::info($request->all());
-        
-        $data = $request->json()->all();
+        $transactionDate = Carbon::now();        
+        // Get Paystack webhook payload as array
+        $payload = $request->all();
 
-         foreach ($data['Body']['stkCallback']['CallbackMetadata']['Item'] as $item) {
-        if ($item['Name'] == 'MpesaReceiptNumber') {
-            $mpesaReceiptNumber = $item['Value'];
-        } elseif ($item['Name'] == 'Amount') {
-            $amount = $item['Value'];
-        } elseif ($item['Name'] == 'PhoneNumber') {
-            $phoneNumber = $item['Value'];
-        } elseif ($item['Name'] == 'TransactionDate') {
-            $transactionDate = $item['Value'];
-        }
-    }
+        // Log payload for debugging
+        Log::info('Paystack Webhook:', $payload);
+
+        $data = $payload['data'] ?? [];
 
        
         $pesa = new Pesa();
-        $pesa->amount = $amount;
-        $pesa->phone = $phoneNumber;
+        $pesa->amount = $data['amount'];
+        $pesa->phone = $data['customer']['email'];
         $pesa->date = $transactionDate;
-        $pesa->reference = $mpesaReceiptNumber;
+        $pesa->reference = $data['reference'];
         $pesa->status = '0';
         $pesa->save();
 
