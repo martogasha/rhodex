@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
 
     <!-- Title -->
-    <title>Mylonix - Mpesa Transactions</title>
+    <title>Bank Payments - Star Rhodex Tours and Travel</title>
 
 
     <!-- *************
@@ -58,7 +58,7 @@
 <header class="header">
     <div class="logo-wrapper">
         <a href="index.html" class="logo">
-            <img src="{{asset('asseti/images/logo.png')}}" alt="Wafi Admin Dashboard" />
+            <img src="{{asset('assets/images/logo/logo.png')}}" alt="Wafi Admin Dashboard" />
         </a>
 
     </div>
@@ -263,42 +263,20 @@
                         Dashboard
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('stock')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Stock
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('adminGallery')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Gallery
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('admin/order')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Orders
-                    </a>
-                </li>
+       
                 <li class="nav-item dropdown">
                     <a class="nav-link active-page" href="{{url('admin/mpesaTransactions')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Mpesa
+                        Bank Payments
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('orderDetails')}}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{url('orders')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Order Details
+                        Order
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('rating')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Product Rating
-                    </a>
-                </li>
+              
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="{{url('admin/blog')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
@@ -379,7 +357,7 @@
     ************* -->
 
     <!-- Footer start -->
-    <footer class="main-footer">© Mylonix 2025</footer>
+    <footer class="main-footer">© Star Rhodex Tours and Travel 2026</footer>
     <!-- Footer end -->
 
 </div>

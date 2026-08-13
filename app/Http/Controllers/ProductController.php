@@ -8,6 +8,7 @@ use App\Cat;
 use App\Product;
 use App\Listing;
 use App\Category;
+use App\Booking;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Session;
@@ -99,6 +100,50 @@ class ProductController extends Controller
         public function homeOne(){
    
         return view('customer.indexOne');
+    }
+      public function appointment(){
+   
+        return view('customer.appointment');
+    }
+        public function storeBooking(Request $request){
+        $book = new Booking();
+        $book->name = $request->input('name');
+        $book->phone_number = $request->input('phone_number');
+        $book->date_from = $request->input('date_from');
+        $book->date_to = $request->input('date_to');
+        $book->number_of_guest = $request->input('number_of_guest');
+        $book->number_of_room = $request->input('number_of_room');
+        if($request->input('destination')==1){
+            dd('maasai');
+            $book->price = 100000;
+            $book->destination = 'Maasai Mara';
+        }
+        if($request->input('destination')==2){
+            dd('amboseli');
+            $book->price = 20000;
+            $book->destination = 'Amboseli';
+        }
+        if($request->input('destination')==3){
+            dd('Hells gate');
+            $book->price = 50000;
+            $book->destination = 'Hells Gate';
+        }
+        if($request->input('destination')==4){
+            dd('diani');
+            $book->price = 5000;
+            $book->destination = 'Diani';
+        }
+        if($request->input('destination')==5){
+            dd('mount kenya');
+            $book->price = 5000;
+            $book->destination = 'Mount Kenya';
+        }
+        
+        $book->save();
+
+
+        return redirect()->back()->with('success','APPOINTMENT BOOKED SUCCESSFULLY');
+
     }
     public function status($id){
         $status = Product::find($id);

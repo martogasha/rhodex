@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from wowtheme7.com/tf/elitestay/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:15:15 GMT -->
+<!-- Mirrored from wowtheme7.com/tf/elitestay/appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:14:48 GMT -->
 <head>
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
@@ -10,7 +10,7 @@
     <meta name="robots" content="INDEX,FOLLOW" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!-- Title -->
-    <title>Star Rhodex Tours and Travel- Blog</title>
+    <title>Star Rhodex Tours and Travel- book</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
     <!-- Bootstrap -->
@@ -308,7 +308,6 @@
                 </div>
 
                 <div class="header-button header-two-button">
-                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="{{url('book')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                 </div>
 
                 <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
@@ -329,7 +328,7 @@
             <div class="col-lg-12">
                 <div class="text-center">
                     <span class="breadcrumb-subtitle tw-mb-4 text-white text-uppercase tw-text-xl fw-bold text-white"> Experience the Story</span>
-                    <h2 class="breadcrumb-title tw-text-25 fw-normal text-white tw-char-animation"> blog Grid</h2>
+                    <h2 class="breadcrumb-title tw-text-25 fw-normal text-white tw-char-animation"> book an appointment</h2>
                 </div>
             </div>
         </div>
@@ -339,185 +338,122 @@
  
     <div class="pb-120">
         <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
-   
+  
 </div>
     </div>
-    <section class="blog-grid-area tw-pb-10">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-11">
-                    <div class="row">
-                        <div class="col-xl-8">
-                            <div>
-                                <div class="tw-mb-15 tw_fade_anim" data-delay=".3">
-                                    <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb1.jpg" alt="thumb"></a>
-                                        <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
-                                        </div>
-                                    </div>
-                                    <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-user"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-clock"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
-                                         </div>
-                                    </div>
-                                    <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The whimsically named Egg Canvas brainch </a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
-                                </div>
-                                <div class="tw-mb-15 tw_fade_anim">
-                                    <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb2.jpg" alt="thumb"></a>
-                                        <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
-                                        </div>
-                                    </div>
-                                    <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-user"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-clock"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
-                                         </div>
-                                    </div>
-                                    <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The Charmingly Coined Baguette Moodboard Bureau</a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
-                                </div>
-                                <div class="tw-mb-15 tw_fade_anim">
-                                    <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb3.jpg" alt="thumb"></a>
-                                        <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
-                                        </div>
-                                    </div>
-                                    <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-user"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-clock"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
-                                         </div>
-                                    </div>
-                                    <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The Enchantingly Called Scone Storyboard Society</a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-10">
-                                        <!-- pagination -->
-                                        <div class="pagination justify-content-center widget-pagination pt-70 tw-mb-8 tw_fade_anim">
-                                            <nav aria-label="Page navigation example">
-                                                <ul class="pagination">
-                                                  <li class="page-item"><a class="page-link rounded-0" href="#"><i class="ph ph-caret-double-left"></i></a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                  <li class="page-item"><a class="page-link rounded-0" href="#"><i class="ph ph-caret-double-right"></i></a></li>
-                                                </ul>
-                                              </nav>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-8">
-                             <div class=""> 
-                                  <div class="sidebar-tag bg-white tw-rounded-xl tw-pt-8 tw-pb-8 tw-px-10 tw_fade_anim">
-                                       <h6 class="tw-text-505 fw-normal text-capitalize tw-mb-5 border-start border-3 border-main-600 tw-ps-2">Populer Tags</h6>
-                                       <div class="d-flex align-items-center flex-wrap tw-gap-3 cursor-small">
-                                            <a href="{{url('book')}}" class="tw-px-5 tw-py-2 bg-white border border-neutral-100 hover-bg-main-600 tw-rounded-lg hover-border-main-600 hover-text-heading tw-text-sm text-capitalize fw-normal text-heading">Booking</a>
-                                            <a href="{{url('contact')}}" class="tw-px-5 tw-py-2 bg-white border border-neutral-100 hover-bg-main-600 tw-rounded-lg hover-border-main-600 hover-text-heading tw-text-sm text-capitalize fw-normal text-heading">Contact</a>
-                                            <a href="{{url('services')}}" class="tw-px-5 tw-py-2 bg-white border border-neutral-100 hover-bg-main-600 tw-rounded-lg hover-border-main-600 hover-text-heading tw-text-sm text-capitalize fw-normal text-heading">Services</a>
-                                            <a href="{{url('/')}}" class="tw-px-5 tw-py-2 bg-white border border-neutral-100 hover-bg-main-600 tw-rounded-lg hover-border-main-600 hover-text-heading tw-text-sm text-capitalize fw-normal text-heading">Home</a>
-                                       </div>
-                                  </div>
-                             </div>
-                        </div>
+    <div class="pb-120">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="contact-three-wrapper appointment-ip-wrapper bg-white tw-rounded-xl tw-ms-8&gt; &lt;div class=" section-two-wrapper="" text-center="">
+            <div class="text-center tw-mb-10">
+                <h6 class="section-two-subtitle tw-text-xl text-uppercase text-main-600 tw-mb-6">Find unique homes in vibrant places.</h6>
+                <h2 class="section-two-title tw-text-16 fw-normal tw-mb-3 tw-char-animation">Experience Hospitality Like Never Before Book Now!</h2>
+            </div>
+            @include('flash-message')
+            <div>
+              <form action="{{route('storeBooking')}}" class="login-form" method="post">
+                @csrf
+                <div class="row gy-4 gx-3">
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="position-relative z-1">
+                      <input type="text" name="name" class="contact-three-input cursor-big tw-px-6 tw-py-7 tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" id="personalInfo" placeholder="Full Name" required>
+                      <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7"></div>
                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="position-relative z-1">
+                      <input type="text" name="phone" class="contact-three-input cursor-big tw-px-6 tw-py-7 tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" id="personalInfo" placeholder="Phone Number" required>
+                      <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7"></div>
+                    </div>
+                  </div>
+                    <div class="col-xl-12 col-lg-6">
+                    <div class="position-relative z-1">
+                      <input type="email" name="email" class="contact-three-input cursor-big tw-px-6 tw-py-7 tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" id="personalInfo" placeholder="Email" required>
+                      <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7"></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="position-relative z-1">
+                        <span>From</span>
+                      <input type="date" name="date_from" class="contact-three-input cursor-big tw-px-6 tw-py-7 tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" id="personalInfo" placeholder="Check In" required>
+                      <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7"></div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="position-relative z-1">
+                        <span>To</span>
+                      <input type="date" name="date_to" class="contact-three-input cursor-big tw-px-6 tw-py-7 tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" id="personalInfo" placeholder="Check Out" required>
+                      <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7"></div>
+                    </div>
+                  </div>
+                  
+                   <div class="col-xl-6 col-lg-6">
+                    <div class="nice-select contact-three-nice-select tw-text-base tw-px-5 tw-h-18 d-inline-flex align-items-center font-body text-body tw-rounded-lg border-0 w-100">
+                      <span class="current">Guests</span>
+                      <select name="guest" required>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        </select>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <div class="nice-select contact-three-nice-select tw-text-base tw-px-5 tw-h-18 d-inline-flex align-items-center font-body text-body tw-rounded-lg border-0 w-100">
+                      <span class="current">Rooms</span>
+                      <select name="room" required>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        </select>
+                    </div>
+                  </div>
+
+                   <div class="col-xl-6 col-lg-6">
+                    <div class="nice-select contact-three-nice-select tw-text-base tw-px-5 tw-h-18 d-inline-flex align-items-center font-body text-body tw-rounded-lg border-0 w-100">
+                    
+                        <select name="amount" required>
+                        <option value="1">Maasai Mara @ 100,000</option>
+                        <option value="2">Amboseli @ 20,000</option>
+                        <option value="3">Hells Gate @ 50,000</option>
+                        <option value="4">Diani @ 200,000</option>
+                        <option value="5">Mount Kenya @ 5,000</option>
+                        </select>
+                    </div>
+                  </div>
+                  
+ 
+                  <div class="col-xl-12">
+                    <div class="tw-mt-6">
+                      <button type="submit" class="tw-btn-hover-black bg-main-600 tw-py-6 tw-px-16 text-capitalize text-heading w-100 font-heading tw-rounded-lg d-inline-flex fw-normal justify-content-center align-items-center tw-gap-2">Pay</button>
+                    </div>
+                  </div>
                 </div>
+              </form>
             </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
-    <section class="background-img position-relative z-1 tw-pt-25 tw-pb-23" data-background-image="assets/images/thumbs/cta-three-bg2.jpg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-12">
-                    <div class="cta-three-wrapper tw-pt-27 tw-pb-22 tw-px-20">
-                        <div class="section-two-wrapper text-center tw-mb-8">
-                            <h6 class="section-two-subtitle tw-text-xl text-uppercase text-main-three-600 tw-mb-4">Find unique homes in vibrant places.</h6>
-                            <h2 class="section-two-title tw-text-25 text-white fw-normal tw-char-animation">Book Your Beachside 
-                                Escape Today</h2>
-                        </div>
-                        <div class="tw-mt-6 text-center">
-                                                    <a class="tw-btn-hover-yellow bg-main-three-600 tw-py-6 tw-px-16 text-capitalize text-white font-heading d-inline-flex fw-bold align-items-center tw-gap-2" href="contact.html">make reservation <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
     <!-- ==================== Footer Start Here ==================== -->
 <footer class="footer background-img position-relative z-1 overflow-hidden " data-background-image="assets/images/thumbs/footer-bg.jpg">
     <div class="container">
@@ -545,28 +481,15 @@
                         <p class="font-heading fw-normal text-white">By subscribing, you’re accept <a class="text-main-600 hover-text-white text-decoration-underline" href="#">Privacy Policy</a></p>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+              <div class="col-xl-2 col-lg-6 col-md-4 col-sm-6 col-xs-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
                     <div class="footer-col-2 tw_fade_anim" data-delay=".5">
                         <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Our Devision</h4>
                         <ul class="d-flex flex-column tw-gap-4">
+                        
                             <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Store Directory</a>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Insights</a>
                             </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Top Hotels</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Quick Links</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Important Links</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Insights</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Knowledge Center</a>
-                            </li>
+                       
                         </ul>
                     </div>
                 </div>
@@ -575,20 +498,9 @@
                         <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">My account</h4>
                         <ul class="d-flex flex-column tw-gap-4">
                             <li>
-                                <a href="contact.html" class="text--white hover-text-main-600 hover-underline">Contact Us</a>
+                                <a href="{{url('contact')}}" class="text--white hover-text-main-600 hover-underline">Contact Us</a>
                             </li>
-                            <li>
-                                <a href="faq.html" class="text--white hover-text-main-600 hover-underline">FAQ Page</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Get In Touch</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Global Network</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Suport 24/7</a>
-                            </li>
+                      
                         </ul>
                     </div>
                 </div>
@@ -596,24 +508,11 @@
                     <div class="footer-col-4 tw_fade_anim" data-delay=".9">
                         <h4 class="cursor-big tw-text-505 fw-normal text--white tw-mb-8">Service</h4>
                         <ul class="d-flex flex-column tw-gap-4">
+                         
                             <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Request A Freight</a>
+                                <a href="{{url('services')}}" class="text--white hover-text-main-600 hover-underline">Our Services</a>
                             </li>
-                            <li>
-                                <a href="service-details.html" class="text--white hover-text-main-600 hover-underline">Our Services</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">What We Do</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Abandonment Cart</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Shipments</a>
-                            </li>
-                            <li class="mb-0">
-                                <a href="#" class="text--white hover-text-main-600 hover-underline">Pricing Flexibility</a>
-                            </li>
+                     
                         </ul>
                     </div>
                 </div>
@@ -627,7 +526,7 @@
             <div class="container container-two">
                 <div class="footer-bottom-wrap d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                   <div class="mb-0 aos-init tw_fade_anim" data-delay=".3">
-                      <a href="index.html" class="">
+                      <a href="{{url('/')}}" class="">
                           <img src="assets/images/logo/logo.png" alt="Logo">
                       </a>
                   </div>
@@ -648,14 +547,14 @@
                         <a href="https://www.pinterest.com/" class="text--white tw-text-lg hover-text-main-600"><i class="ph-bold ph-youtube-logo"></i></a>
                       </li>
                   </ul>
-                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">wowtheme7.</a>- Powered by Themeforest</p>
+                  <p class="text--white text-line-1 fw-medium tw-text-lg aos-init tw_fade_anim" data-delay=".7">Made with ❤️ by <a href="index.html" class="fw-semibold text-main-600 hover-underline hover-text-white">Dolex.</a>- Powered by Dolex</p>
                 </div>
             </div>
         </div>
     </div>
-</footer>
-<!-- ==================== Footer End Here ==================== -->
+</footer><!-- ==================== Footer End Here ==================== -->
 </div>
+
 <!-- Jquery js -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <!-- phosphor Js -->
@@ -692,8 +591,21 @@
 <script src="assets/js/jquery.marquee.min.js"></script>
 <!-- main js -->
 <script src="assets/js/main.js"></script>
+   <!-- Load Paystack inline script -->
+    <script src="https://paystack.co"></script>
 
 </body>
+<script>
+    function showLoading(event, button) {
+  event.preventDefault(); // Prevent form submission
 
-<!-- Mirrored from wowtheme7.com/tf/elitestay/blog-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:15:11 GMT -->
+  button.innerHTML = "Processing Payment...";
+
+  setTimeout(function() {
+    button.innerHTML = "Payment completed.";
+  }, 3000);
+}
+    </script>
+
+<!-- Mirrored from wowtheme7.com/tf/elitestay/appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Dec 2025 10:14:48 GMT -->
 </html>

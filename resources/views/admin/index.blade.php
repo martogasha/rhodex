@@ -10,10 +10,10 @@
     <!-- Meta -->
     <meta name="description" content="Responsive Bootstrap4 Dashboard Template">
     <meta name="author" content="ParkerThemes">
-    <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
+    <link rel="shortcut icon" href="{{asset('assets/images/logo/favicon.png')}}" />
 
     <!-- Title -->
-    <title>Mylonix - Dashboard</title>
+    <title>Dashboard - Star Rhodex Tours and Travel</title>
 
 
     <!-- *************
@@ -58,7 +58,7 @@
 <header class="header">
     <div class="logo-wrapper">
         <a href="index.html" class="logo">
-            <img src="{{asset('asseti/images/logo.png')}}" alt="Wafi Admin Dashboard" />
+            <img src="{{asset('assets/images/logo/logo.png')}}" alt="Wafi Admin Dashboard" />
         </a>
     </div>
     <div class="header-items">
@@ -218,43 +218,20 @@
                         Dashboard
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('stock')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Stock
-                    </a>
-                </li>
-                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('category')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Category
-                    </a>
-                </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('adminGallery')}}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{url('admin/mpesaTransactions')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Gallery
+                        Bank Payments
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('admin/order')}}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{url('orders')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Orders
+                        Order
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('orderDetails')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Order Details
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('rating')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Product Rating
-                    </a>
-                </li>
+            
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="{{url('admin/blog')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
@@ -275,7 +252,7 @@
         <div class="page-header">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">Home</li>
-                <li class="breadcrumb-item active">Ecommerce Dashboard</li>
+                <li class="breadcrumb-item active">Dashboard</li>
             </ol>
 
             <ul class="app-actions">
@@ -313,46 +290,24 @@
 
                             <!-- Row starts -->
                             <div class="row gutters">
-                                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
-                                    <a href="{{url('stock')}}">
-                                    <div class="goal-card">
-                                        <h5>Stock</h5>
-                                        <p class="percentage"></p>
-                                        <div class="progress progress-dot">
-                                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4>{{\App\Product::all()->count()}}</h4>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
-                                    <a href="{{url('admin/order')}}">
-                                    <div class="goal-card">
-                                        <h5>Orders</h5>
-                                        <p class="percentage"></p>
-                                        <div class="progress progress-dot">
-                                            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4>{{\App\Order::where('order_status1','Awaiting Confirmation')->orWhere('order_status1','Order on the Way')->count()}}</h4>
-                                    </div>
-                                    </a>
-                                </div>
-                                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
-                                    <a href="{{url('orderDetails')}}">
-                                    <div class="goal-card">
-                                        <h5>Order Details</h5>
-                                        <p class="percentage"></p>
-                                        <div class="progress progress-dot">
-                                            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="107" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <h4>{{\App\Order::where('order_status1','Delivered')->count()}}</h4>
-                                    </div>
-                                    </a>
-                                </div>
+                        
                                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
                                     <a href="{{url('admin/mpesaTransactions')}}">
                                         <div class="goal-card">
-                                            <h5>Mpesa Details</h5>
+                                            <h5>Dashboard</h5>
+                                            <p class="percentage"></p>
+                                            <div class="progress progress-dot">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="107" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <h4></h4>
+                                        </div>
+                                    </a>
+                                </div>
+                           
+                                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
+                                    <a href="{{url('admin/mpesaTransactions')}}">
+                                        <div class="goal-card">
+                                            <h5>Bank Payments</h5>
                                             <p class="percentage"></p>
                                             <div class="progress progress-dot">
                                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="107" aria-valuemin="0" aria-valuemax="100"></div>
@@ -362,14 +317,14 @@
                                     </a>
                                 </div>
                                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
-                                    <a href="{{url('rating')}}">
+                                    <a href="{{url('orders')}}">
                                         <div class="goal-card">
-                                            <h5>Product Rating</h5>
+                                            <h5>Orders</h5>
                                             <p class="percentage"></p>
                                             <div class="progress progress-dot">
                                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="107" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
-                                            <h4>Ksh: {{\App\Rating::all()->count()}}</h4>
+                                            <h4>Ksh: {{\App\Booking::all()->count()}}</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -391,7 +346,7 @@
     ************* -->
 
     <!-- Footer start -->
-    <footer class="main-footer">© Mylonix 2025</footer>
+    <footer class="main-footer">© Star Rhodex Tours and Travel 2026</footer>
     <!-- Footer end -->
 
 </div>

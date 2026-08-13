@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/magnific-popup.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}">
-    <link rel="shortcut icon" href="{{asset('images/fav.png')}}">
+    <link rel="shortcut icon" href="{{asset('assets/images/logo/favicon.png')}}">
     <link rel="apple-touch-icon" href="{{asset('images/apple-touch-icon.html')}}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/apple-touch-icon-72x72.html')}}">
     <link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/apple-touch-icon-114x114.html')}}">

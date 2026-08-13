@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +20,9 @@ Route::get('lipa', 'CheckoutController@lipaNaMpesa');
 
 //customer Routes
 Route::get('hhh','ProductController@home');
-Route::get('/','ProductController@homeOne');
+Route::get('/','ProductController@homeOne')->name('paystack.callback');
+Route::get('book','ProductController@appointment');
+Route::post('storeBooking','MpesaController@initiatePaystackPayment')->name('storeBooking');
 Route::get('blog','ProductController@blog');
 Route::get('blogOne','ProductOneController@blog');
 Route::get('blog/{id}','ProductController@blogDetailOne');
@@ -48,8 +51,8 @@ Route::get('laptops','CategoryController@laptops');
 Route::get('storages','CategoryController@storage');
 Route::get('software','CategoryController@software');
 Route::get('gallery','GalleryController@gallery');
-
-Route::resource('Login','LoginController');
+Route::post('Login', 'AuthController@login')->name('Login');
+Route::post('Register', 'AuthController@register')->name('Register');
 Route::post('placeOrder','CheckoutController@placeOrderOne');
 Route::post('LoginUser','LoginController@login')->name('loginCustomOne');
 Route::post('RegisterUser','LoginController@register')->name('registerCustomOne');
@@ -73,7 +76,7 @@ Route::post('storeWebhooks','MpesaController@storeWebhooks');
 Route::get('generateAccessToken','MpesaController@generateAccessToken');
 
 
-
+Route::middleware(['auth'])->group(function () {
 //admin Routes
 Route::view('admin','admin.index');
 Route::get('admin/order','OrderController@index');
@@ -100,14 +103,13 @@ Route::get('editProductDetails/{id}','ProductController@editProductDetails');
 Route::get('editCategory/{id}','ProductOneController@editCategoryDetails');
 Route::post('confirmOrder','OrderController@confirm');
 Route::get('orderDetails/{id}','OrderController@orderDetails');
-Route::resource('rating','RatingController');
+Route::resource('orders','RatingController');
 Route::get('getRatings','RatingController@getRatings');
 Route::get('admin/mpesaTransactions','MpesaController@mpesaTransactions');
 Route::resource('advert','AdvertController');
 
 Route::view('test','test');
-
-
+});
 
 Auth::routes();
 

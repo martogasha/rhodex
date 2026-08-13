@@ -7,12 +7,16 @@ use App\Mpesa;
 use App\Order;
 use App\User;
 use App\Pesa;
+use App\Booking;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Kopokopo\SDK\Helpers\Auth;
 use Kopokopo\SDK\K2;
 use Session;
 use Carbon\Carbon;
+
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
 class MpesaController extends Controller
 {
     public function generateAccessToken(){
@@ -105,6 +109,7 @@ class MpesaController extends Controller
         return view('customer.checkout')->with('success','PAYMENT RECEIVED');
     }
     public function storeWebhooks(Request $request){
+        Log::info($request->all());
         
         $data = $request->json()->all();
 
@@ -138,4 +143,86 @@ class MpesaController extends Controller
             'transactions'=>$transactions
         ]);
     }
+
+  
+
+public function initiatePaystackPayment(Request $request)
+{
+    $email = $request->email;
+    $amount = $request->amount;
+
+                    $booking = new Booking();
+                    $booking->name = $request->name;
+                    $booking->phone_number = $request->phone;
+                    $booking->date_from = $request->date_from;
+                    $booking->date_to = $request->date_to;
+                    $booking->number_of_guest = $request->guest;
+                    $booking->number_of_room = $request->room;
+                    $booking->email = $request->email;
+                        if($request->input('amount')==1){
+                            $booking->price = 100000;
+                            $booking->destination = 'Maasai Mara';
+                        }
+                        if($request->input('amount')==2){
+                            $booking->price = 20000;
+                            $booking->destination = 'Amboseli';
+                        }
+                        if($request->input('amount')==3){
+                            $booking->price = 50000;
+                            $booking->destination = 'Hells Gate';
+                        }
+                        if($request->input('amount')==4){
+                            $booking->price = 5000;
+                            $booking->destination = 'Diani';
+                        }
+                        if($request->input('amount')==5){
+                            $booking->price = 5000;
+                            $booking->destination = 'Mount Kenya';
+                        }
+                    $booking->status = '0';
+                    $booking->save();
+    // Convert KSh to cents
+    // Example: KSh 1,000 = 100000
+    $amountInSmallestUnit = $amount * 100;
+
+    $reference = 'PAY_' . strtoupper(Str::random(20));
+
+    $response = Http::withToken(config('services.paystack.secret_key'))
+        ->acceptJson()
+        ->post('https://api.paystack.co/transaction/initialize', [
+            'email' => $email,
+            'amount' => $amountInSmallestUnit,
+            'currency' => 'KES',
+            'reference' => $reference,
+
+            // Only card payments
+            'channels' => [
+                'card'
+            ],
+
+            'callback_url' => route('paystack.callback'),
+        ]);
+
+    if (!$response->successful()) {
+        return response()->json([
+            'success' => false,
+            'message' => 'Paystack request failed',
+            'error' => $response->json(),
+        ], 400);
+    }
+
+    $data = $response->json();
+
+    if ($data['status'] === true) {
+
+        return redirect()->away(
+            $data['data']['authorization_url']
+        );
+    }
+
+    return response()->json([
+        'success' => false,
+        'message' => $data['message'] ?? 'Unable to initialize payment',
+    ], 400);
+}
 }

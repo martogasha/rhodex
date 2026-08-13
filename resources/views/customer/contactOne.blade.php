@@ -10,7 +10,7 @@
     <meta name="robots" content="INDEX,FOLLOW" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!-- Title -->
-    <title>Star Rhodex Tours and Travel- contact</title>
+    <title>Star Rhodex Tours and Travel- Contact</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
     <!-- Bootstrap -->
@@ -308,7 +308,7 @@
                 </div>
 
                 <div class="header-button header-two-button">
-                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="{{url('contact')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                    <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-14 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="{{url('book')}}">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                 </div>
 
                 <button type="button" class="toggle-mobileMenu leading-none d-lg-none text-white tw-text-9">
