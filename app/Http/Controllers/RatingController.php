@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Rating;
+use App\Booking;
 use Illuminate\Http\Request;
 
 class RatingController extends Controller
 {
     public function index(){
-        $products = Rating::all()->unique('product_id');
+        $products = Booking::all();
         return view('admin.rating',[
             'products'=>$products
         ]);

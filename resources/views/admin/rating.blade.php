@@ -180,31 +180,7 @@
     <div class="main-container">
 
 
-        <!-- Page header start -->
-        <div class="page-header">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
-                <li class="breadcrumb-item active">Stock</li>
-                <li>
-                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#customModalTwo">
-                        Add Product
-                    </button>
-                </li>
-            </ol>
 
-            <ul class="app-actions">
-                <li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Print">
-                        <i class="icon-print"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Download CSV">
-                        <i class="icon-cloud_download"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
         @include('flash-message')
         <!-- Page header end -->
 
@@ -214,27 +190,43 @@
 
 
             <!-- Gallery start -->
-            <div class="baguetteBoxThree gallery">
-                <!-- Row start -->
-                <div class="row gutters">
+      <div class="table-container">
+            <div class="table-responsive">
+                <table class="table custom-table m-0">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone Number</th>
+                        <th>Date From</th>
+                        <th>Date To</th>
+                        <th>Number of Guest</th>
+                        <th>Number of Rooms</th>
+                        <th>Email</th>
+                        <th>Amount</th>
+                        <th>Destination</th>
+                    </tr>
+                    </thead>
+                    <tbody>
                     @foreach($products as $product)
-                    <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
-                        <a href="{{asset('uploads/product/'.$product->product->product_image)}}" class="effects">
-                            <img src="{{asset('uploads/product/'.$product->product->product_image)}}" class="img-fluid" alt="Wafi Admin">
-                            <div class="overlay">
-                                <span class="expand">+</span>
-                            </div>
-                        </a>
-                        <h6>{{$product->product->product_name}}</h6>
-                        <h4>Ksh:{{$product->product->product_price}}</h4>
-                        <div class="row">
-                            <button type="button" class="btn btn-info view" name="view" id="{{$product->product_id}}" data-toggle="modal" data-target="#exampleModalScrollable">
-                                Reviews
-                            </button>
-                        </div>
-                    </div>
+                   <tr>
+                        <td>{{$product->name}}</td>
+                        <td>{{$product->phone_number}}</td>
+                        <td>{{$product->date_from}}</td>
+                        <td>{{$product->date_to}}</td>
+
+                    <td>{{$product->number_of_guest}}</td>
+                    <td>{{$product->number_of_room}}</td>
+                    <td>{{$product->email}}</td>
+                    <td>{{$product->price}}</td>
+                    <td>{{$product->destination}}</td>
+                    </tr>
 
                     @endforeach
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
                     <!-- Button trigger modal -->
 

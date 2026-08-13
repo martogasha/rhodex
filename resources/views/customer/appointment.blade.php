@@ -425,11 +425,11 @@
                     <div class="nice-select contact-three-nice-select tw-text-base tw-px-5 tw-h-18 d-inline-flex align-items-center font-body text-body tw-rounded-lg border-0 w-100">
                     
                         <select name="amount" required>
-                        <option value="1">Maasai Mara @ 100,000</option>
-                        <option value="2">Amboseli @ 20,000</option>
-                        <option value="3">Hells Gate @ 50,000</option>
-                        <option value="4">Diani @ 200,000</option>
-                        <option value="5">Mount Kenya @ 5,000</option>
+                        <option value="1">Maasai Mara @ $1000</option>
+                        <option value="2">Amboseli @ $200</option>
+                        <option value="3">Hells Gate @ $500</option>
+                        <option value="4">Diani @ $2000</option>
+                        <option value="5">Mount Kenya @ $50</option>
                         </select>
                     </div>
                   </div>
