@@ -249,7 +249,10 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
   
     </li>
-  
+   <li class="nav-menu__item">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
     <li class="nav-menu__item">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
@@ -287,7 +290,10 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
   
     </li>
- 
+  <li class="nav-menu__item">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
     <li class="nav-menu__item">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>

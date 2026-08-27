@@ -250,6 +250,10 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
       
     </li>
+     <li class="nav-menu__item">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
  
     <li class="nav-menu__item has-submenu activePage">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
@@ -285,8 +289,12 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
   
     </li>
+     <li class="nav-menu__item">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
  
-    <li class="nav-menu__item activePage">
+    <li class="nav-menu__item">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
 </ul>
@@ -347,10 +355,10 @@
       <div class="col-xl-10">
         <div class="contact-three-wrapper appointment-ip-wrapper bg-white tw-rounded-xl tw-ms-8&gt; &lt;div class=" section-two-wrapper="" text-center="">
             <div class="text-center tw-mb-10">
+                @include('flash-message')
                 <h6 class="section-two-subtitle tw-text-xl text-uppercase text-main-600 tw-mb-6">Find unique homes in vibrant places.</h6>
                 <h2 class="section-two-title tw-text-16 fw-normal tw-mb-3 tw-char-animation">Experience Hospitality Like Never Before Book Now!</h2>
             </div>
-            @include('flash-message')
             <div>
               <form action="{{route('storeBooking')}}" class="login-form" method="post">
                 @csrf
@@ -437,7 +445,7 @@
  
                   <div class="col-xl-12">
                     <div class="tw-mt-6">
-                      <button type="submit" class="tw-btn-hover-black bg-main-600 tw-py-6 tw-px-16 text-capitalize text-heading w-100 font-heading tw-rounded-lg d-inline-flex fw-normal justify-content-center align-items-center tw-gap-2">Pay</button>
+                      <button type="submit" class="tw-btn-hover-black bg-main-600 tw-py-6 tw-px-16 text-capitalize text-heading w-100 font-heading tw-rounded-lg d-inline-flex fw-normal justify-content-center align-items-center tw-gap-2">Book</button>
                     </div>
                   </div>
                 </div>

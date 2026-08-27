@@ -292,14 +292,14 @@
                             <div class="row gutters">
                         
                                 <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-12">
-                                    <a href="{{url('admin/mpesaTransactions')}}">
+                                    <a href="{{url('admin/blog')}}">
                                         <div class="goal-card">
-                                            <h5>Dashboard</h5>
+                                            <h5>Blog</h5>
                                             <p class="percentage"></p>
                                             <div class="progress progress-dot">
                                                 <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="107" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
-                                            <h4></h4>
+                                            <h4>{{\App\Mpesa::all()->count()}}</h4>
                                         </div>
                                     </a>
                                 </div>

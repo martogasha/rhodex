@@ -29,7 +29,7 @@ class BlogController extends Controller
     public function eBlog(Request $request){
         $edit = Blog::find($request->id);
         $edit->title = $request->input('title');
-        $edit->detail = $request->input('detail');
+        $edit->detail = 'default';
         $edit->link = $request->input('link');
         $edit->linkName = $request->input('linkName');
         $edit->detailOne = $request->input('detailOne');
@@ -53,7 +53,7 @@ class BlogController extends Controller
         $edit->save();
 
 
-        return redirect()->back()->with('success','Blog Edited Successfully');
+        return redirect(url('admin/blog'))->with('success','Blog Edited Successfully');
 
     }
      public function eBlogListing(Request $request){
@@ -65,7 +65,7 @@ class BlogController extends Controller
         $edit->save();
 
 
-        return redirect()->back()->with('success','Blog Edited Successfully');
+        return redirect(url('admin/blog'))->with('success','Blog Edited Successfully');
 
     }
     public function ajax(){
@@ -85,7 +85,7 @@ class BlogController extends Controller
     public function storeBlog(Request $request){
         $pictures = new Blog();
         $pictures->title = $request->input('title');
-        $pictures->detail = $request->input('detail');
+        $pictures->detail = 'default';
         $pictures->link = $request->input('link');
         $pictures->linkName = $request->input('linkName');
         $pictures->detailOne = $request->input('detailOne');
@@ -111,4 +111,18 @@ class BlogController extends Controller
 
         return redirect()->back()->with('success','Blog Added Successfully');
     }
+     public function dBlog(Request $request){
+        $deleteBlog = Blog::find($request->blogid);
+        $deleteBlog->delete();
+        return redirect()->back()->with('success','Blog Deleted Successfully');
+     }
+         public function delB(Request $request){
+        $output = "";
+        $blogId = Blog::find($request->id);
+        $output = '
+        <input type=hidden value='.$blogId->id.' name=blogid>
+        ';
+        return response($output);
+    }
+
 }

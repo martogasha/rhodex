@@ -174,48 +174,6 @@ public function initiatePaystackPayment(Request $request)
                         }
                     $booking->status = '0';
                     $booking->save();
-    // Convert KSh to cents
-    // Example: KSh 1,000 = 100000
-    $amountInSmallestUnit = $amount * 100;
-
-    $reference = 'PAY_' . strtoupper(Str::random(20));
-
-    $response = Http::withToken(config('services.paystack.secret_key'))
-        ->acceptJson()
-        ->post('https://api.paystack.co/transaction/initialize', [
-            'email' => $email,
-            'amount' => $amountInSmallestUnit,
-            'currency' => 'KES',
-            'reference' => $reference,
-
-            // Only card payments
-            'channels' => [
-                'card'
-            ],
-
-            'callback_url' => route('paystack.callback'),
-        ]);
-
-    if (!$response->successful()) {
-        return response()->json([
-            'success' => false,
-            'message' => 'Paystack request failed',
-            'error' => $response->json(),
-        ], 400);
-    }
-
-    $data = $response->json();
-
-    if ($data['status'] === true) {
-
-        return redirect()->away(
-            $data['data']['authorization_url']
-        );
-    }
-
-    return response()->json([
-        'success' => false,
-        'message' => $data['message'] ?? 'Unable to initialize payment',
-    ], 400);
+                    return redirect()->back()->with('success','BOOKED SUCCESSFULLY');
 }
 }

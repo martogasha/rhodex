@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
 
     <!-- Title -->
-    <title>Mylonix - Edit {{$blog->title}}</title>
+    <title>Blog - Edit {{$blog->title}}</title>
 
 
     <!-- *************
@@ -58,11 +58,9 @@
 <header class="header">
     <div class="logo-wrapper">
         <a href="index.html" class="logo">
-            <img src="img/logo.png" alt="Wafi Admin Dashboard" />
+        <img src="{{asset('assets/images/logo/logo.png')}}" alt="Logo">
         </a>
-        <a href="#" class="quick-links-btn" data-toggle="tooltip" data-placement="right" title="" data-original-title="Quick Links">
-            <i class="icon-menu1"></i>
-        </a>
+     
     </div>
     <div class="header-items">
         <!-- Custom search start -->
@@ -392,7 +390,7 @@
 						<i></i>
 					</span>
         </button>
-        < <div class="collapse navbar-collapse" id="WafiAdminNavbar">
+        <div class="collapse navbar-collapse" id="WafiAdminNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="{{url('admin')}}" role="button" aria-haspopup="true" aria-expanded="false">
@@ -400,42 +398,20 @@
                         Dashboard
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('stock')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Stock
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('adminGallery')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Gallery
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('admin/order')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Orders
-                    </a>
-                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="{{url('admin/mpesaTransactions')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Mpesa
+                        Bank Payments
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('orderDetails')}}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{url('orders')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
-                        Order Details
+                        Order
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{url('rating')}}" role="button" aria-haspopup="true" aria-expanded="false">
-                        <i class="icon-book-open nav-icon"></i>
-                        Product Rating
-                    </a>
-                </li>
+            
                 <li class="nav-item dropdown">
                     <a class="nav-link active-page" href="{{url('admin/blog')}}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="icon-book-open nav-icon"></i>
@@ -495,54 +471,8 @@
                                 <label for="recipient-name" class="col-form-label">Title:</label>
                                 <input type="text" class="form-control" value="{{$blog->title}}" name="title" id="recipient-name">
                             </div>
-                            <div class="form-group">
-                                <label for="message-text" class="col-form-label">Detail:</label>
-                                <textarea class="form-control" name="detail" id="message-text">{{$blog->detail}}</textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link:</label>
-                                <input type="text" class="form-control" value="{{$blog->link}}" name="link" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link Name:</label>
-                                <input type="text" class="form-control" value="{{$blog->linkName}}" name="linkName" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Detail One:</label>
-                                <input type="text" class="form-control" value="{{$blog->detailOne}}" name="detailOne" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link Name One:</label>
-                                <input type="text" class="form-control" value="{{$blog->linkNameOne}}" name="linkNameOne" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link One:</label>
-                                <input type="text" class="form-control" value="{{$blog->linkOne}}" name="linkOne" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Quote:</label>
-                                <input type="text" class="form-control" value="{{$blog->quote}}" name="quote" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Quote Author:</label>
-                                <input type="text" class="form-control" value="{{$blog->quoteAuthor}}" name="quoteAuthor" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Detail Two:</label>
-                                <input type="text" class="form-control" value="{{$blog->detailTwo}}" name="detailTwo" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link Name Two:</label>
-                                <input type="text" class="form-control" value="{{$blog->linkNameTwo}}" name="linkNameTwo" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Link Two:</label>
-                                <input type="text" class="form-control" value="{{$blog->linkTwo}}" name="linkTwo" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Detail Three:</label>
-                                <input type="text" class="form-control" value="{{$blog->detailThree}}" name="detailThree" id="recipient-name">
-                            </div>
+                   
+                           
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Image:</label>
                                 <input type="file" class="form-control" name="image" id="recipient-name">
@@ -550,27 +480,7 @@
                             <button type="submit" class="btn btn-info">Edit</button>
 
                         </form>
-                            <form action="{{url('eBlogListing')}}" method="post" enctype="multipart/form-data">
-                            @csrf
-                            <input type="hidden" value="{{$blog->id}}" name="id">
-
-                            @foreach($listings as $listing)
-                            <label for="recipient-name" class="col-form-label">{{$listing->name}}</label> 
-                            <button type="button" class="btn btn-warning view" data-toggle="modal" data-target="#customModalTwo">
-                                edit
-                            </button><br>
-                            @endforeach
-                               <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">Name:</label>
-                                <input type="text" class="form-control" name="listname" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="recipient-name" class="col-form-label">link:</label>
-                                <input type="text" class="form-control" name="link" id="recipient-name">
-                            </div>
-                            <button type="submit" class="btn btn-info">Edit List</button>
-
-                        </form>
+              
                     </div>
                 </div>
                 <!-- Row end -->

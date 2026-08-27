@@ -74,6 +74,7 @@ Route::get('contact','AboutController@contact');
 Route::get('stk','MpesaController@stkPush');
 Route::post('storeWebhooks','MpesaController@storeWebhooks');
 Route::get('generateAccessToken','MpesaController@generateAccessToken');
+Route::get('delB','BlogController@delB');
 
 
 Route::middleware(['auth'])->group(function () {
@@ -85,6 +86,7 @@ Route::get('edit/{id}','BlogController@edit');
 Route::post('eBlog','BlogController@eBlog');
 Route::post('eBlogListing','BlogController@eBlogListing');
 Route::post('storeBlog','BlogController@storeBlog');
+Route::post('dBlog','BlogController@dBlog');
 Route::get('ajax','OrderController@getOrderDetails');
 Route::get('adminGallery','GalleryController@adminGallery');
 Route::post('deleteGalleryImage','GalleryController@deleteGalleryImage')->name('deleteGalleryImage');

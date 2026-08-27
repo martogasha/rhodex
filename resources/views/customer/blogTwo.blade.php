@@ -250,8 +250,12 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
       
     </li>
+     <li class="nav-menu__item activePage">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
  
-    <li class="nav-menu__item has-submenu activePage">
+    <li class="nav-menu__item has-submenu">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
 </ul>
@@ -285,8 +289,12 @@
         <a href="{{url('services')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
   
     </li>
+     <li class="nav-menu__item activePage">
+        <a href="{{url('blog')}}" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
+      
+    </li>
  
-    <li class="nav-menu__item activePage">
+    <li class="nav-menu__item">
         <a href="{{url('contact')}}" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
 </ul>
@@ -349,11 +357,12 @@
                     <div class="row">
                         <div class="col-xl-8">
                             <div>
+                                @foreach($blogs as $blog)
                                 <div class="tw-mb-15 tw_fade_anim" data-delay=".3">
                                     <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb1.jpg" alt="thumb"></a>
+                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="{{asset('uploads/product/'.$blog->image)}}" alt="thumb"></a>
                                         <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
+                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">{{ $blog->created_at->format('d') }} <br>{{ $blog->created_at->shortMonthName }}</span>
                                         </div>
                                     </div>
                                     <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
@@ -361,121 +370,26 @@
                                               <span class="text-heading tw-text-lg">
                                                    <i class="ph ph-user"></i>
                                               </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
+                                              <span class="text-main-two-600 tw-text-sm">Star Rhodex Tours and Travel</span>
                                          </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
+                                      
                                          <span class="tw-w-205 border border-main-two-600"></span>
                                          <div class="d-flex align-items-center tw-gap-3">
                                               <span class="text-heading tw-text-lg">
                                                    <i class="ph ph-clock"></i>
                                               </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
+                                              <span class="text-main-two-600 tw-text-sm">{{$blog->created_at->diffForHumans()}}</span>
                                          </div>
                                     </div>
                                     <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The whimsically named Egg Canvas brainch </a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
+                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">{{$blog->title}} </a></h4>
                                     </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
+                                 
                                 </div>
-                                <div class="tw-mb-15 tw_fade_anim">
-                                    <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb2.jpg" alt="thumb"></a>
-                                        <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
-                                        </div>
-                                    </div>
-                                    <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-user"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-clock"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
-                                         </div>
-                                    </div>
-                                    <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The Charmingly Coined Baguette Moodboard Bureau</a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
-                                </div>
-                                <div class="tw-mb-15 tw_fade_anim">
-                                    <div class="position-relative z-1 tw-mb-7">
-                                        <a href="blog-details.html"><img class="tw-rounded-2xl" src="assets/images/thumbs/blog-grid-thumb3.jpg" alt="thumb"></a>
-                                        <div class="position-absolute start-0 top-0 tw-mt-4 tw-ms-4">
-                                            <span class="bg-main-600 text-heading tw-text-xl fw-medium tw-py-4 tw-px-6 text-center lh-1 tw-rounded-lg">24 <br>Feb</span>
-                                        </div>
-                                    </div>
-                                    <div class="tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap">
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-user"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Mehedii .H</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-chats-circle"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">Comments (03)</span>
-                                         </div>
-                                         <span class="tw-w-205 border border-main-two-600"></span>
-                                         <div class="d-flex align-items-center tw-gap-3">
-                                              <span class="text-heading tw-text-lg">
-                                                   <i class="ph ph-clock"></i>
-                                              </span>
-                                              <span class="text-main-two-600 tw-text-sm">3 min Read</span>
-                                         </div>
-                                    </div>
-                                    <div class="tw-mb-8">
-                                        <h4 class="tw-text-8 fw-normal tw-mb-7"><a href="blog-details.html">The Enchantingly Called Scone Storyboard Society</a></h4>
-                                        <p class="tw-text-lg tw-w-730-px fw-normal">There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.</p>
-                                    </div>
-                                    <div>
-                                        <a class="blog-grid-btn tw-text-sm fw-bold text-uppercase text-body letter-spacing d-inline-flex align-items-center tw-gap-4" href="blog-details.html">Read MOre <span><img src="assets/images/icons/blog-grid-btn.svg" alt="btn"></span></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xl-10">
-                                        <!-- pagination -->
-                                        <div class="pagination justify-content-center widget-pagination pt-70 tw-mb-8 tw_fade_anim">
-                                            <nav aria-label="Page navigation example">
-                                                <ul class="pagination">
-                                                  <li class="page-item"><a class="page-link rounded-0" href="#"><i class="ph ph-caret-double-left"></i></a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                  <li class="page-item"><a class="page-link rounded-0" href="#"><i class="ph ph-caret-double-right"></i></a></li>
-                                                </ul>
-                                              </nav>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+
+                                
+                            
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-8">
@@ -511,7 +425,7 @@
                                 Escape Today</h2>
                         </div>
                         <div class="tw-mt-6 text-center">
-                                                    <a class="tw-btn-hover-yellow bg-main-three-600 tw-py-6 tw-px-16 text-capitalize text-white font-heading d-inline-flex fw-bold align-items-center tw-gap-2" href="contact.html">make reservation <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                                                    <a class="tw-btn-hover-yellow bg-main-three-600 tw-py-6 tw-px-16 text-capitalize text-white font-heading d-inline-flex fw-bold align-items-center tw-gap-2" href="{{url('book')}}">make reservation <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
                         </div>
                     </div>
                 </div>

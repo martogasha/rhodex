@@ -184,6 +184,7 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">Home</li>
                 <li class="breadcrumb-item active">Blog</li>
+                &nbsp;&nbsp;&nbsp;
                 <li>
                     <button type="button" class="btn btn-info" data-toggle="modal" data-target="#customModalTwo">
                         Add Blog
@@ -230,7 +231,7 @@
                                         Edit
                                     </button>
                                 </a>
-                                <a href="#"><button class="btn btn-danger" data-toggle="modal" data-target="#deleteBlog">
+                                <a href="#"><button class="btn btn-danger view" data-toggle="modal" data-target="#deleteBlog" id="{{$blog->id}}">
                                         Delete
                                     </button>
                                 </a>
@@ -284,55 +285,8 @@
                         <label for="recipient-name" class="col-form-label">Title:</label>
                         <input type="text" class="form-control" name="title" id="recipient-name">
                     </div>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Detail:</label>
-                        <textarea class="form-control" name="detail" id="message-text"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link Name:</label>
-                        <input type="text" class="form-control" name="linkName" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link:</label>
-                        <input type="text" class="form-control" name="link" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Quote:</label>
-                        <textarea class="form-control" name="quote" id="message-text"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Quote Author:</label>
-                        <input type="text" class="form-control" name="quoteAuthor" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Detail One:</label>
-                        <textarea class="form-control" name="detailOne" id="message-text"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link Name One:</label>
-                        <input type="text" class="form-control" name="linkNameOne" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link One:</label>
-                        <input type="text" class="form-control" name="linkOne" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Detail Two:</label>
-                        <textarea class="form-control" name="detailTwo" id="message-text"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link Name Two:</label>
-                        <input type="text" class="form-control" name="linkNameTwo" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="recipient-name" class="col-form-label">Link Two:</label>
-                        <input type="text" class="form-control" name="linkTwo" id="recipient-name">
-                    </div>
-                    <div class="form-group">
-                        <label for="message-text" class="col-form-label">Detail Three:</label>
-                        <textarea class="form-control" name="detailThree" id="message-text"></textarea>
-                    </div>
-
+                  
+                    
                 </div>
                 <div class="modal-footer custom">
 
@@ -354,6 +308,8 @@
         <div class="modal-content">
             <form action="{{url('dBlog')}}" method="post" enctype="multipart/form-data">
                 @csrf
+                <div id="del">
+                </div>
                 <div class="modal-header">
                     <h5 class="modal-title" id="customModalTwoLabel">Delete Blog</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -464,6 +420,25 @@
 <script src="{{asset('asset/js/main.js')}}"></script>
 
 </body>
+<script>
+    $(document).on('click','.view',function () {
+        $value = $(this).attr('id');
+        $.ajax({
+            type:"get",
+            url:"{{url('delB')}}",
+            data:{'id':$value},
+            success:function (data) {
+                $('#del').html(data);
+            },
+            error:function (error) {
+                console.log(error)
+                alert('error')
 
+            }
+
+        });
+    });
+ 
+</script>
 <!-- Mirrored from bootstrap.gallery/wafi-admin/dashboard-v2/topbar/gallery.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jul 2020 08:13:29 GMT -->
 </html>
