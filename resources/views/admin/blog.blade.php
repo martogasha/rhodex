@@ -279,11 +279,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <input type="file" name="image">
+                        <input type="file" name="image" required>
                     </div>
                     <div class="form-group">
                         <label for="recipient-name" class="col-form-label">Title:</label>
-                        <input type="text" class="form-control" name="title" id="recipient-name">
+                        <input type="text" class="form-control" name="title" id="recipient-name" required>
                     </div>
                   
                     
